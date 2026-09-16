@@ -1510,11 +1510,9 @@ window.SubscriptionsManager = (function () {
             <div id="dpr-smart-query-section" class="arxiv-pane dpr-smart-pane">
               <div class="dpr-display-card">
                 <div id="dpr-sq-display" class="dpr-sq-display"></div>
-                <div class="dpr-input-card">
-                  <div class="dpr-inline-row">
-                    <button id="dpr-sq-open-chat-btn" class="arxiv-tool-btn" style="background:#2e7d32; color:#fff;">新增</button>
-                  </div>
-                </div>
+              </div>
+              <div class="dpr-admin-add-row">
+                <button id="dpr-sq-open-chat-btn" class="arxiv-tool-btn" type="button">新增研究方向</button>
               </div>
             </div>
 
