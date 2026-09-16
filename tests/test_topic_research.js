@@ -8,6 +8,7 @@ const research = window.DPRTopicResearch;
 const researchMarkup = research.render();
 assert.ok(researchMarkup.includes('🎁'));
 assert.ok(researchMarkup.includes('dpr-topic-starter-card'));
+assert.ok(researchMarkup.includes('arXiv + 顶会'));
 assert.ok(!researchMarkup.includes('dpr-topic-as-of'), '截止日期不再由用户填写');
 const makeElement = () => ({ hidden: true, disabled: false, value: '', style: {}, events: {}, children: [], addEventListener(type, handler) { this.events[type] = handler; }, replaceChildren() { this.children = []; }, appendChild(child) { this.children.push(child); } });
 global.document = { readyState: 'loading', addEventListener() {}, createElement: makeElement, getElementById: () => null };
@@ -176,6 +177,8 @@ research.mount(root, { getProfiles: () => profiles, getConfig: () => ({}), hasUn
   const css = fs.readFileSync('app/app.css', 'utf8');
   assert.ok(css.includes('#arxiv-search-panel.is-topic-tab #arxiv-search-panel-main {\n  order: 3;'), '专题页共享词条面板位于任务区下方');
   assert.ok(css.includes('.dpr-topic-starter-card:has(input:checked)'), '大礼包有独立选中高亮');
+  assert.ok(!css.includes('.dpr-topic-starter-card {\n  min-height:'), '大礼包与其他模式卡片保持同高');
+  assert.ok(css.includes('.dpr-admin-add-row .arxiv-tool-btn {\n  border-color: #d4e0d7;\n  background: #fff;'), '新增入口使用低调描边样式');
   assert.ok(!manager.includes('name="dpr-quick-run-mode" value="90"'));
   assert.ok(!manager.includes('id="arxiv-admin-starter-pack-btn"'));
   const index = fs.readFileSync('index.html', 'utf8');

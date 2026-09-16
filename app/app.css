@@ -3922,7 +3922,6 @@ article.markdown-section {
   order: 3;
 }
 .dpr-topic-starter-card {
-  min-height: 62px !important;
   border: 1px solid #aa83e8 !important;
   background: linear-gradient(135deg, #faf4ff, #f1eaff) !important;
   box-shadow: 0 5px 16px rgba(111, 67, 178, 0.13);
@@ -3938,27 +3937,27 @@ article.markdown-section {
   box-shadow: 0 0 0 2px rgba(113, 60, 174, 0.16);
 }
 .dpr-topic-starter-content {
-  display: grid;
+  display: flex;
   flex: 1;
-  grid-template-columns: auto auto;
   align-items: center;
   justify-content: center;
-  gap: 4px 8px;
+  gap: 6px;
   text-align: center;
+  white-space: nowrap;
 }
 .dpr-topic-starter-icon {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1;
 }
 .dpr-topic-starter-card .dpr-task-action-title {
   color: #5d2f91;
-  font-size: 14px;
+  font-size: 12px;
 }
 .dpr-topic-starter-card .dpr-task-action-cost {
-  grid-column: 1 / -1;
-  justify-self: center;
   background: #fff;
   color: #7245a5;
+  padding: 1px 5px;
+  font-size: 10px;
 }
 @media (max-width: 640px) {
   #arxiv-search-panel-header,
@@ -5004,11 +5003,16 @@ article.markdown-section {
 }
 
 .dpr-admin-add-row .arxiv-tool-btn {
-  min-width: 148px;
-  border-color: #2e7d32;
-  background: #2e7d32;
-  color: #fff;
-  font-weight: 700;
+  border-color: #d4e0d7;
+  background: #fff;
+  color: #486651;
+  font-weight: 600;
+  padding: 5px 11px;
+}
+
+.dpr-admin-add-row .arxiv-tool-btn:hover {
+  border-color: #afc8b6;
+  background: #f5faf6;
 }
 
 .dpr-input-card {

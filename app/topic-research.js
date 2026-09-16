@@ -60,7 +60,7 @@ window.DPRTopicResearch = (function () {
       <div class="dpr-task-action-grid dpr-task-action-grid--radio" role="radiogroup" aria-label="专题研究模式">
         <label class="chat-quick-run-item dpr-task-radio-card"><input type="radio" name="dpr-topic-mode" value="90" checked><span class="dpr-task-action-title">90天 arXiv</span><span class="dpr-task-action-cost">聚焦近期研究</span></label>
         <label class="chat-quick-run-item dpr-task-radio-card"><input type="radio" name="dpr-topic-mode" value="365"><span class="dpr-task-action-title">365天 arXiv</span><span class="dpr-task-action-cost">梳理一年进展</span></label>
-        <label class="chat-quick-run-item dpr-task-radio-card dpr-topic-starter-card"><input type="radio" name="dpr-topic-mode" value="starter"><span class="dpr-topic-starter-content"><span class="dpr-topic-starter-icon" aria-hidden="true">🎁</span><span class="dpr-task-action-title">研究方向大礼包</span><span class="dpr-task-action-cost">365天 arXiv + 近24个月会议</span></span></label>
+        <label class="chat-quick-run-item dpr-task-radio-card dpr-topic-starter-card" title="365天 arXiv + 近24个月会议"><input type="radio" name="dpr-topic-mode" value="starter"><span class="dpr-topic-starter-content"><span class="dpr-topic-starter-icon" aria-hidden="true">🎁</span><span class="dpr-task-action-title">研究方向大礼包</span><span class="dpr-task-action-cost">arXiv + 顶会</span></span></label>
       </div>
       <p class="dpr-task-hint">大礼包包括调研问题、方法与子方向、数据与评测、近期进展、局限与待研究问题、阅读路线及资源。资料不足会明确标注，不编造结论。</p>
       <p class="dpr-task-hint">会议范围沿用“会议论文”中勾选的会议名称；未选择则全部支持会议，年份勾选不限制近24个月窗口。</p>
