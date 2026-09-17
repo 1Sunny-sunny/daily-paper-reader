@@ -177,7 +177,7 @@ function testConferenceCurrentYearDisabledForPendingSources() {
   assert.equal(isConferenceYearSelectable('IEEE S&P', currentYear), true);
   assert.equal(isConferenceYearSelectable('CVPR', currentYear), true);
   assert.equal(isConferenceYearSelectable('ECCV', currentYear), true);
-  assert.equal(isConferenceYearSelectable('IJCAI', currentYear), false);
+  assert.equal(isConferenceYearSelectable('IJCAI', currentYear), true);
   // ECCV biennial: odd years disabled
   assert.equal(isConferenceYearSelectable('ECCV', '2024'), true);
   assert.equal(isConferenceYearSelectable('ECCV', '2025'), false);
@@ -212,6 +212,21 @@ function testSosp2026MetadataChoiceAndVisibleWarning() {
   refreshQuickRunButtons();
   assert.equal(hint.textContent.includes('标题和作者'), false);
   __setConferenceHintEl(null);
+  __setRunSelectionState({ conferencePairs: [] });
+}
+
+function testIjcai2026CanBeSelectedWithDistinctOfficialAndStoredCounts() {
+  const snapshot = require('../app/conference-stats.json');
+  const stats = snapshot.items.find(item => item.id === 'ijcai-2026');
+  assert.equal(stats.official_accepted_count, 989);
+  assert.equal(stats.stored_total_count, 971);
+  __setConferenceStatsSnapshot(snapshot);
+  __setRunSelectionState({ conferencePairs: ['IJCAI:2026'] });
+  const button = __buildConferenceChoiceRowsHtml().match(/<button\b[^>]*data-conference="IJCAI"[^>]*data-conference-year="2026"[^>]*>[\s\S]*?<\/button>/)[0];
+  assert.equal(/\bdisabled\b/.test(button), false);
+  assert.ok(button.includes('aria-pressed="true"'));
+  assert.ok(button.includes('class="dpr-choice-total">971</span>'));
+  assert.ok(!button.includes('预计 2026 年 8 月会后'));
   __setRunSelectionState({ conferencePairs: [] });
 }
 
@@ -557,6 +572,7 @@ async function testLongRangeSelectionDispatchesAndCanCancel() {
   testConferenceCurrentYearDisabledForPendingSources();
   testConferenceDefaultYearOnlySelects2025();
   testSosp2026MetadataChoiceAndVisibleWarning();
+  testIjcai2026CanBeSelectedWithDistinctOfficialAndStoredCounts();
   testAvailable2026ConferenceChoicesAndEmnlpEstimate();
   testConferenceYearChoicesShowTwoDigitYearAndStoredTotalOnly();
   await testConferenceStatsLoadReusesBootstrappedJsonPromise();
