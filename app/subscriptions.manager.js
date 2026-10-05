@@ -121,9 +121,7 @@ window.SubscriptionsManager = (function () {
   const CONFERENCE_STATS_SNAPSHOT_URL = 'app/conference-stats.json';
   // 2026 年已入库并验证检索的会议；正式论文集已开放的 IJCAI 同样可选。
   const CONFERENCE_2026_AVAILABLE = new Set(['ICLR', 'ICML', 'AAAI', 'ACL', 'CVPR', 'ECCV', 'IJCAI', 'OSDI', 'SOSP', 'IEEE S&P', 'NDSS']);
-  const CONFERENCE_DATA_NOTICES = {
-    'SOSP:2026': 'SOSP 2026 当前仅收录官方录用论文的标题和作者，摘要/PDF 尚待公开；检索基于标题，不代表全文可读。',
-  };
+  const CONFERENCE_DATA_NOTICES = {};
   const FEATURED_CONFERENCE_YEAR_PAIRS = new Set(['acl:2026', 'icml:2026']);
   // ECCV 是双年会议（偶数年）
   const BIENNIAL_EVEN_CONFERENCES = new Set(['ECCV']);
