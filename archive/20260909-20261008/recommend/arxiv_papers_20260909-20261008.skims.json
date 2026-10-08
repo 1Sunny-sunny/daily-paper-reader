@@ -1,0 +1,602 @@
+{
+  "mode": "skims",
+  "generated_at": "2026-10-08T07:45:05.601920+00:00",
+  "stats": {
+    "mode": "skims",
+    "forced_all_quick": true,
+    "min_score": 8.0,
+    "deep_divecandidates": 15,
+    "deep_cap": null,
+    "deep_selected": 0,
+    "quick_candidates": 15,
+    "quick_skim_target": null,
+    "quick_selected": 15
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2609.27441v1",
+      "source": "arxiv",
+      "title": "Stable Neural Decoding Across Sessions via Task-Conditioned Latent Alignment for Brain-Machine Interfaces",
+      "abstract": "Achieving stable long-term neural decoding in invasive brain-machine interfaces (BMIs) remains challenging due to variations in recorded neural populations across sessions. Current latent alignment approaches may overlook task-dependent structure during cross-session adaptation. We propose Task-Conditioned Latent Alignment (TCLA), a framework that stabilizes neural decoding by learning a shared latent space. TCLA learns a low-dimensional source representation using neural reconstruction and continuous behavioral supervision. During target-session adaptation, the shared representation is fixed, while target neural activity is mapped into the source latent space by aligning source and target distributions separately for each task condition. We evaluated TCLA on seven nonhuman primate datasets spanning multiple tasks. In long-term cross-session evaluation, TCLA achieved a mean $R^2$ of $0.476\\pm0.014$ with a negative $R^2$ failure rate of only 6.8\\%. Across 1,356 within-subject session pairs, TCLA achieved a mean $R^2$ of $0.371\\pm0.009$ with a failure rate of 6.8\\%. Across 2,134 cross-subject session pairs, TCLA achieved a mean $R^2$ of $0.218\\pm0.004$ with a failure rate of 12.9\\%, substantially better than those of the comparison methods. These results demonstrate that by preserving behaviorally relevant and task-dependent latent structure, TCLA improves the robustness of neural decoding across recording sessions and subjects. The source code is publicly available at \\href{https://github.com/FAMD-CASIA/TCLA}{https://github.com/FAMD-CASIA/TCLA}.",
+      "authors": [
+        "Canyang Zhao",
+        "Bolin Peng",
+        "J. Patrick Mayo",
+        "Ce Ju",
+        "Bing Liu"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ],
+      "published": "2026-09-23T07:05:59+00:00",
+      "link": "https://arxiv.org/pdf/2609.27441v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "Proposes stable cross-session neural decoding for BMIs via task-conditioned latent alignment",
+      "llm_evidence_cn": "提出通过任务条件潜在对齐实现BMI跨会话稳定神经解码",
+      "llm_evidence": "提出通过任务条件潜在对齐实现BMI跨会话稳定神经解码",
+      "canonical_evidence": "提出通过任务条件潜在对齐实现BMI跨会话稳定神经解码",
+      "llm_tldr_en": "Addresses long-term BMI decoding instability due to cross-session neural population changes; proposes TCLA learning shared latent space with task conditioning and aligning target to source; experiments show improved stability over standard latent alignment.",
+      "llm_tldr_cn": "针对侵入式脑机接口跨会话神经群体变化导致的长期解码不稳定问题，提出任务条件潜在对齐框架TCLA，通过学习共享潜在空间并在目标会话固定源表示进行分布对齐，实验表明该方法能有效提升跨会话解码稳定性，优于现有潜在对齐方法，为脑机接口跨天稳定解码提供了新思路。",
+      "llm_tldr": "针对侵入式脑机接口跨会话神经群体变化导致的长期解码不稳定问题，提出任务条件潜在对齐框架TCLA，通过学习共享潜在空间并在目标会话固定源表示进行分布对齐，实验表明该方法能有效提升跨会话解码稳定性，优于现有潜在对齐方法，为脑机接口跨天稳定解码提供了新思路。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "decoding neural signals across days with cross-day stability",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2609.39080v1",
+      "source": "arxiv",
+      "title": "Association profile conditioning in a set-temporal transformer for cross-session intracortical motor decoding",
+      "abstract": "Intracortical motor decoders degrade across sessions because the set of recorded units changes and persisting units can alter how their firing relates to behavior. Most existing methods update network weights on each new session or rely on unlabeled activity, which does not directly reveal such changes. We present APST, an Association Profile-conditioned Set-Temporal transformer that adapts to new sessions with all network weights frozen. From a few labeled calibration trials, APST summarizes how each unit's firing relates to behavior in a four-dimensional association profile computed in closed form. The profiles condition a set-attention encoder that accepts any number and order of units, followed by a causal transformer for streaming decoding. On held-out DANDI688 sessions from two monkeys, APST reaches velocity $R^2$ of $0.78$ and $0.81$, versus $0.40$ and $0.58$ for a variant that uses neural activity alone, and matches or exceeds an RNN fine-tuned on the same trials. On FALCON private held-out evaluation, it attains $R^2$ of $0.65$, $0.42$, and $0.44$ on M1, M2, and H1.",
+      "authors": [
+        "Xinyuan Zhang",
+        "Handong Mo",
+        "Pengfei Wen",
+        "Shuang Liang",
+        "Jichang Yang",
+        "Yan Zeng",
+        "Zhongrui Wang",
+        "Han Wang"
+      ],
+      "primary_category": "q-bio.NC",
+      "categories": [
+        "q-bio.NC",
+        "cs.AI"
+      ],
+      "published": "2026-09-30T06:17:01+00:00",
+      "link": "https://arxiv.org/pdf/2609.39080v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "Intracortical motor decoders degrade across sessions",
+      "llm_evidence_cn": "皮层内运动解码器跨会话性能下降",
+      "llm_evidence": "皮层内运动解码器跨会话性能下降",
+      "canonical_evidence": "皮层内运动解码器跨会话性能下降",
+      "llm_tldr_en": "This paper addresses cross-session degradation in intracortical motor decoding due to changes in recorded units and tuning drift. It proposes APST, a set-temporal transformer conditioned on four-dimensional association profiles computed from a few calibration trials, with frozen weights. Experiments show APST adapts to new sessions without weight updates, mitigating performance loss.",
+      "llm_tldr_cn": "该论文针对皮层内运动解码器跨会话性能下降的问题，提出关联特征调节的集合-时间Transformer（APST）。APST从少量标记校准试验中计算每个单元与行为的四维关联特征，并利用集合注意力处理任意单元集合变化，所有网络参数冻结。实验表明该方法能在不更新权重的情况下有效适应新会话，显著缓解跨会话解码退化，对长期稳定的脑机接口具有重要价值。",
+      "llm_tldr": "该论文针对皮层内运动解码器跨会话性能下降的问题，提出关联特征调节的集合-时间Transformer（APST）。APST从少量标记校准试验中计算每个单元与行为的四维关联特征，并利用集合注意力处理任意单元集合变化，所有网络参数冻结。实验表明该方法能在不更新权重的情况下有效适应新会话，显著缓解跨会话解码退化，对长期稳定的脑机接口具有重要价值。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "brain-computer interface neural decoding across days",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2609.27650v2",
+      "source": "arxiv",
+      "title": "Brain-to-Language Decoding: Tasks, Signals, Methods, Evaluation, Practical Use and Beyond",
+      "abstract": "Brain-to-language decoding translates neural activity associated with language production, internal speech and perception into linguistic or expressive outputs. It offers a route to restoring communication after speech loss and a means of studying how the brain represents language. Advances in neural recording and representation learning have expanded the field from constrained recognition and acoustic reconstruction to text generation, streaming personalised speech and facial animation. This survey synthesises these developments across invasive and non-invasive measurements, drawing on a search without a lower year limit and source-led updates through September 2026. We connect Articulated, Inner and Perceived tasks to the neural populations they engage, the representations available to decoders and the outputs those representations can support. We examine model development, public resources and the evolution of evaluation, and compare published performance and communication costs within their reported protocols. The synthesis identifies complementary routes to progress: phonetic, acoustic and semantic targets preserve different aspects of a message; shared representations support reuse across recording conditions and tasks; and online communication increasingly depends on calibration, feedback and user control alongside decoding accuracy. Shared benchmarks enable algorithmic comparisons, while longitudinal studies reveal the demands of sustained use. We discuss these developments and their remaining limitations, then outline a prospective five-level trajectory from commands and language to meaning, scenarios and bidirectional cognitive exchange",
+      "authors": [
+        "Yiqian Yang",
+        "Yiqun Duan",
+        "Chenyu Liu",
+        "Yiqi Wang",
+        "Xinliang Zhou",
+        "Chin-Teng Lin",
+        "Yu Zhang"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.HC",
+        "cs.NE"
+      ],
+      "published": "2026-09-23T10:14:47+00:00",
+      "link": "https://arxiv.org/pdf/2609.27650v2",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "survey of brain-to-language decoding for communication restoration",
+      "llm_evidence_cn": "脑到语言解码综述用于恢复交流",
+      "llm_evidence": "脑到语言解码综述用于恢复交流",
+      "canonical_evidence": "脑到语言解码综述用于恢复交流",
+      "llm_tldr_en": "This survey synthesizes the field of brain-to-language decoding, covering tasks, signals (invasive and non-invasive), methods, evaluation, and practical use. It provides a comprehensive overview of translating neural activity associated with language into outputs, highlighting advances in text generation and speech synthesis, and sets directions for future research in BCI communication restoration.",
+      "llm_tldr_cn": "本文综述了大脑到语言解码领域，涵盖任务类型、神经信号、方法与评估，从侵入式到非侵入式记录。梳理了从受限识别到文本生成和个性化语音合成的进展，并为失语者通信恢复的脑机接口研究提供系统框架与未来方向。",
+      "llm_tldr": "本文综述了大脑到语言解码领域，涵盖任务类型、神经信号、方法与评估，从侵入式到非侵入式记录。梳理了从受限识别到文本生成和个性化语音合成的进展，并为失语者通信恢复的脑机接口研究提供系统框架与未来方向。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "neural decoding models for brain-computer interfaces",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2610.02864v1",
+      "source": "arxiv",
+      "title": "NeuroLens: Learning Latent Embeddings of Neural Semantics from Chronic Recordings",
+      "abstract": "Understanding how neural activity represents higher-order cognition and how these representations evolve over time has long been a central pursuit in neuroscience. However, current analytical tools cannot easily distinguish representational plasticity from recording instability in chronic neural recordings. Here, we introduce NeuroLens (Latent Embeddings of Neural Semantics), a self-supervised model based on the Joint-Embedding Predictive Architecture (JEPA) framework that learns denoised, semantically informative latents from chronic neural recordings. An adaptive encoder maps changing neural populations into a common latent space, while a temporal predictor learns structure that supports prediction of future latent states. By predicting in latent space, NeuroLens captures temporally predictable structure and reduces sensitivity to transient, recording-specific variability. Across chronic intracortical data in mice and humans, the learned representations improve decoding of decision-making and semantic task variables. Multi-day pretraining enables generalization to future sessions, rapid few-shot adaptation to unseen neural populations, and more stable decoding over time than state-of-the-art baselines. Together, these results establish NeuroLens as a new paradigm for studying how neural representations change during learning and over long timescales.",
+      "authors": [
+        "Hanrui Lyu",
+        "Baiyuan Chen",
+        "Tianshu Tan",
+        "Matthew R. Whiteway",
+        "Maxwell D. Melin",
+        "Ji Xia",
+        "Linyang He",
+        "Bradly C. Stadie",
+        "Anne Churchland",
+        "Liam Paninski",
+        "Yizi Zhang"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "published": "2026-10-02T06:00:26+00:00",
+      "link": "https://arxiv.org/pdf/2610.02864v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Learns stable latent embeddings from chronic neural recordings to distinguish representational plasticity from recording instability.",
+      "llm_evidence_cn": "从慢性神经记录学习稳定潜在嵌入，区分表征可塑性与记录不稳定性。",
+      "llm_evidence": "从慢性神经记录学习稳定潜在嵌入，区分表征可塑性与记录不稳定性。",
+      "canonical_evidence": "从慢性神经记录学习稳定潜在嵌入，区分表征可塑性与记录不稳定性。",
+      "llm_tldr_en": "Introduces NeuroLens, a self-supervised JEPA model that maps changing neural populations into a common latent space for stable semantics from chronic recordings.",
+      "llm_tldr_cn": "该文针对慢性神经记录中难以区分表征可塑性与记录不稳定性的问题，提出NeuroLens自监督模型。模型基于JEPA框架，自适应编码器将变化的神经群体映射到公共潜在空间，并利用时序预测器学习未来状态结构。实验显示该方法能从慢性记录中提取去噪的语义信息，为跨天稳定神经解码提供了新途径。",
+      "llm_tldr": "该文针对慢性神经记录中难以区分表征可塑性与记录不稳定性的问题，提出NeuroLens自监督模型。模型基于JEPA框架，自适应编码器将变化的神经群体映射到公共潜在空间，并利用时序预测器学习未来状态结构。实验显示该方法能从慢性记录中提取去噪的语义信息，为跨天稳定神经解码提供了新途径。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "handling session-to-session variability in neural recordings",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2610.03001v1",
+      "source": "arxiv",
+      "title": "Neural Data Needs Semantic Tokenization: Behavioral Events as Boundaries of Session-Transferable Tokens",
+      "abstract": "Extracellular electrophysiology records a different set of neurons in every session. Neural foundation models embed each neuron and each session into their tokens, so every new session is an input they have never seen, and they fail to generalize to it. A tokenizer for new sessions needs a unit that every session shares and that carries behavior. Population activity offers such a unit. It evolves on a low-dimensional manifold that persists across neuronal turnover and across animals once sessions are aligned. This manifold changes regime at task events such as stimulus onset and movement onset. Within each regime the population occupies a state, the part of the manifold it spans between two events, and each state carries its own behavioral meaning. We propose Tokenization with States (TWS), which segments each trial, one repetition of the task, at these events and converts every state into tokens of population geometry, with no neuron or session embedding. On held-out International Brain Laboratory (IBL) sessions, TWS decodes movement even from regime boundaries that carry no information about the target, while a per-neuron foundation model pretrained on those sessions decodes at chance. Frozen after training on mice alone, TWS transfers to macaques and Utah arrays with only a linear probe. On reach direction, a target that its boundaries do not define, it achieves a Matthews correlation of 0.23, where the event time alone achieves $0.01$. For cross-session generalization, the token matters more than the model on top.",
+      "authors": [
+        "Sangyoon Bae",
+        "Jiook Cha"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-10-02T08:32:36+00:00",
+      "link": "https://arxiv.org/pdf/2610.03001v1",
+      "tags": [
+        "keyword:BCI-DA"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Proposes session-transferable tokens based on behavioral events to generalize neural models across sessions with different neurons.",
+      "llm_evidence_cn": "基于行为事件提出可跨会话迁移的标记，使神经模型能在不同神经元集合的会话间泛化。",
+      "llm_evidence": "基于行为事件提出可跨会话迁移的标记，使神经模型能在不同神经元集合的会话间泛化。",
+      "canonical_evidence": "基于行为事件提出可跨会话迁移的标记，使神经模型能在不同神经元集合的会话间泛化。",
+      "llm_tldr_en": "Shows neural foundation models fail on new sessions; proposes tokenization using population activity manifolds segmented by behavioral events for session transfer.",
+      "llm_tldr_cn": "该文指出神经基础模型因每次会话记录不同神经元而难以泛化到新会话。作者提出利用群体活动低维流形上持续存在的行为事件边界来构建可跨会话迁移的标记单元。这种语义标记化使模型能利用与行为相关的状态，从而在神经元更替和动物间实现泛化。该方法为跨天BCI解码的稳定表示提供了新思路。",
+      "llm_tldr": "该文指出神经基础模型因每次会话记录不同神经元而难以泛化到新会话。作者提出利用群体活动低维流形上持续存在的行为事件边界来构建可跨会话迁移的标记单元。这种语义标记化使模型能利用与行为相关的状态，从而在神经元更替和动物间实现泛化。该方法为跨天BCI解码的稳定表示提供了新思路。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "handling session-to-session variability in neural recordings",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2610.06315v1",
+      "source": "arxiv",
+      "title": "SPDAlign: Interpretable Riemannian Alignment for EEG Forward Modeling Shifts",
+      "abstract": "Electroencephalography (EEG) based brain-computer interfaces enable direct brain-to-device communication for applications such as rehabilitation and communication. However, their practical utility is often limited as the non-stationary nature of the EEG data introduces distribution shifts across domains (e.g., sessions and subjects). Adapting machine learning models to be invariant to these shifts in an unsupervised way, without using costly labeled calibration data, would drastically improve the utility of EEG data. In this work, we use a classic generative model of EEG to study distribution shifts introduced by the domain-specific forward process, which is associated with factors such as head geometry. We theoretically show that such distribution shifts can be recovered solely through linear transformations on the Symmetric Positive Definite manifold. Building on this insight, we propose SPDAlign, an interpretable framework for promoting domain-invariant EEG learning. SPDAlign first aligns the domain-specific means and corrects global rotations across domains using a recent optimal transport technique called Wasserstein Procrustes. We systematically study the proposed approach through simulations and demonstrate its competitive performance on extensive public EEG datasets. Additionally, SPDAlign is a globally linear framework and is intrinsically interpretable, so that the framework can identify frequency ranges of interest, determine the spatial patterns reflecting source-sensor relationships, and address cross-subject variability.",
+      "authors": [
+        "Shanglin Li",
+        "Shiwen Chu",
+        "Okan Koç",
+        "Chenyu Liu",
+        "Qibin Zhao",
+        "Motoaki Kawanabe",
+        "Mitsuo Kawato",
+        "Yi Ding"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-10-05T13:32:26+00:00",
+      "link": "https://arxiv.org/pdf/2610.06315v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Unsupervised Riemannian alignment for EEG distribution shifts across sessions and subjects",
+      "llm_evidence_cn": "针对EEG跨会话和跨被试分布偏移的无监督黎曼对齐",
+      "llm_evidence": "针对EEG跨会话和跨被试分布偏移的无监督黎曼对齐",
+      "canonical_evidence": "针对EEG跨会话和跨被试分布偏移的无监督黎曼对齐",
+      "llm_tldr_en": "Addresses EEG distribution shifts across sessions/subjects in BCIs; proposes SPDAlign using Riemannian alignment based on generative forward model; theoretically shows invariance and achieves unsupervised adaptation without labeled calibration data.",
+      "llm_tldr_cn": "针对EEG脑机接口中跨会话和跨被试的非平稳分布偏移，提出可解释的黎曼对齐方法SPDAlign，利用经典生成模型分析前向过程引起的偏移并在黎曼流形上实现无监督对齐，理论证明可消除偏移，实验显示无需标签校准数据即可提升跨域解码性能，为EEG域适应提供了高效解决方案。",
+      "llm_tldr": "针对EEG脑机接口中跨会话和跨被试的非平稳分布偏移，提出可解释的黎曼对齐方法SPDAlign，利用经典生成模型分析前向过程引起的偏移并在黎曼流形上实现无监督对齐，理论证明可消除偏移，实验显示无需标签校准数据即可提升跨域解码性能，为EEG域适应提供了高效解决方案。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "domain adaptation techniques for brain signal decoding",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2610.07420v1",
+      "source": "arxiv",
+      "title": "Benchmarking Label-Revealed Online Updates for EEG BCI Decoding",
+      "abstract": "Electroencephalography (EEG) signals drift over time, which can cause static brain-computer interface (BCI) models to degrade in practice. We present a benchmark for online adaptation and compare two widely used pipeline families, Common Spatial Patterns (CSP) and Riemannian covariance-based methods, under time-ordered prequential (test-then-train) evaluation. We examine (i) which pipelines benefit most from label-revealed updates, (ii) whether controlled forgetting of older data improves robustness, and (iii) how a minimal-calibration cold start compares with starting from a pretrained model. Across four datasets (three motor-imagery datasets and one movement-decoding dataset), label-revealed online updates improve 13 of 14 model/dataset pairs on the two largest streams, with relative accuracy gains of up to about 18% over a frozen model. A Shapley-based data-valuation analysis over temporal blocks assigns the largest mean value to the most recent block in each of the three analyzed datasets, while older blocks retain positive value.",
+      "authors": [
+        "Bogdan Kozyrskiy",
+        "Artem Grachev",
+        "Abraham I. Camelo Guerrero"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ],
+      "published": "2026-10-05T21:29:18+00:00",
+      "link": "https://arxiv.org/pdf/2610.07420v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "EEG signal drift over time and online adaptation benchmark for BCI decoding",
+      "llm_evidence_cn": "脑电信号随时间漂移及BCI在线自适应基准",
+      "llm_evidence": "脑电信号随时间漂移及BCI在线自适应基准",
+      "canonical_evidence": "脑电信号随时间漂移及BCI在线自适应基准",
+      "llm_tldr_en": "Benchmarks label-revealed online updates for EEG BCI decoding, showing they improve performance under signal drift across four datasets.",
+      "llm_tldr_cn": "针对脑电信号随时间漂移导致静态脑机接口模型性能下降的问题，该研究建立了一个面向在线自适应的基准。实验比较了共空间模式和黎曼协方差方法在时间有序评估下的标签揭示更新策略，考察了遗忘机制和冷启动方案。结果显示标签揭示的在线更新在14个模型/数据集对中的13个上取得改进。该工作为跨会话BCI解码提供了实用的自适应策略参考。",
+      "llm_tldr": "针对脑电信号随时间漂移导致静态脑机接口模型性能下降的问题，该研究建立了一个面向在线自适应的基准。实验比较了共空间模式和黎曼协方差方法在时间有序评估下的标签揭示更新策略，考察了遗忘机制和冷启动方案。结果显示标签揭示的在线更新在14个模型/数据集对中的13个上取得改进。该工作为跨会话BCI解码提供了实用的自适应策略参考。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "handling session-to-session variability in neural recordings",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2609.09786v1",
+      "source": "arxiv",
+      "title": "NEXUS-MI: Communication-Aware Federated Personalization for Gateway-Coordinated Motor-Imagery Brain-Computer Interfaces",
+      "abstract": "Electroencephalography (EEG)-based motor-imagery brain-computer interfaces (MI-BCIs) vary across subjects and sessions, complicating personalization from limited calibration data. Federated learning can exploit shared representations without centralizing raw EEG, but existing federated MI studies largely assume regular synchronization. We introduce NEXUS-MI, a gateway-coordinated federated personalization framework that treats synchronization as a coupled learning-and-communication control problem. Raw EEG and classifier heads remain local, while an edge coordinator maintains the shared backbone. We evaluate NEXUS-MI through offline replay using BCI Competition IV Dataset 2a (BCICIV-2a; 9 subjects, 4 classes) and OpenBMI (54 subjects, 2 classes). Session 1 supports backbone learning, and Session 2 provides limited-calibration personalization and held-out testing. An ideal-link reference and six heterogeneous-link policies characterize gateway participation, buffering, stale-update admission, and backbone-download control. The principal comparison holds delayed-update handling fixed while contrasting non-adaptive and communication-aware synchronization. Paired subject-level comparisons use Holm adjustment, and robustness across five matched realizations is assessed by hierarchical bootstrap. Communication-aware coordination reduced server-to-client backbone traffic by approximately 42% on both datasets, while cohort-level accuracy differences were small and realization-dependent. Cohort averages also concealed subject-level vulnerability, with losses reaching approximately 12 percentage points on BCICIV-2a relative to the ideal-link reference. These findings establish gateway synchronization as an explicit design variable in federated MI personalization and motivate joint evaluation of personalized accuracy, communication cost, update freshness, and subject-level reliability.",
+      "authors": [
+        "Daniel Adu Worae",
+        "Aarthy Nagarajan"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.NI"
+      ],
+      "published": "2026-09-09T06:34:45+00:00",
+      "link": "https://arxiv.org/pdf/2609.09786v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "federated personalization for motor-imagery BCIs addressing subject and session variability",
+      "llm_evidence_cn": "针对运动想象脑机接口的联邦个性化，处理被试和会话差异",
+      "llm_evidence": "针对运动想象脑机接口的联邦个性化，处理被试和会话差异",
+      "canonical_evidence": "针对运动想象脑机接口的联邦个性化，处理被试和会话差异",
+      "llm_tldr_en": "NEXUS-MI introduces gateway-coordinated federated personalization for motor-imagery BCIs, treating synchronization as a coupled learning-and-communication control problem to handle subject and session variability with limited calibration data.",
+      "llm_tldr_cn": "针对运动想象脑机接口中跨被试和跨会话差异大、校准数据有限的问题，该文提出NEXUS-MI框架，将联邦学习中的同步视为学习与通信控制的耦合问题，边缘协调器维护共享骨干网络，原始EEG和分类头保留在本地。在BCICIV-2a数据集上的离线回放实验表明该框架在有限校准数据下能有效个性化，为会话间稳定解码提供了联邦学习方案。",
+      "llm_tldr": "针对运动想象脑机接口中跨被试和跨会话差异大、校准数据有限的问题，该文提出NEXUS-MI框架，将联邦学习中的同步视为学习与通信控制的耦合问题，边缘协调器维护共享骨干网络，原始EEG和分类头保留在本地。在BCICIV-2a数据集上的离线回放实验表明该框架在有限校准数据下能有效个性化，为会话间稳定解码提供了联邦学习方案。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "handling session-to-session variability in neural recordings",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2609.13039v1",
+      "source": "arxiv",
+      "title": "Transfer Learning for Evolving Domains",
+      "abstract": "Transfer learning explores how to leverage knowledge from various tasks or domains (sources) to enhance predictive performance in related tasks or domains (targets). Typically, transfer learning research is segmented into several isolated sub-areas (such as domain generalisation, domain adaptation, or multi-domain learning), each making distinct assumptions about target data availability, namely how much data and how many labels are available at training time. However, in many real-world applications, data availability is not fixed but evolves over time, as instances and labels are progressively collected from a new domain. Each of the classical settings then describes only a snapshot of a trajectory that a deployed system must traverse in full. We formalise this trajectory as a transfer learning problem in its own right, Transfer Learning for Evolving Domains (TrED), specified by a data availability process fixed by the environment, a learning protocol that the method is free to choose, and an evaluation criterion that scores the whole trajectory of models rather than a single one. Within this formalism, the classical settings are recovered as regimes that a learner may pass through, rather than as separate problems that TrED concatenates. We then examine the transfer learning literature to identify mechanisms that are promising building blocks for a solution, and find that most methods are tailored to a single regime and that even the strongest existing candidates do not yet optimise the whole trajectory. We argue that TrED is a well-posed and unsolved problem, and an important direction for future research.",
+      "authors": [
+        "Ricardo Ribeiro Pereira",
+        "Jacopo Bono",
+        "Hugo Ferreira",
+        "Pedro Ribeiro",
+        "Pedro Saleiro",
+        "Pedro Bizarro",
+        "Carlos Soares"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "published": "2026-09-11T16:37:37+00:00",
+      "link": "https://arxiv.org/pdf/2609.13039v1",
+      "tags": [
+        "keyword:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Formalizes transfer learning for evolving domains, directly applicable to BCI session adaptation where data arrives over time.",
+      "llm_evidence_cn": "形式化面向演化领域的迁移学习，可直接应用于BCI随会话推进的数据流适应。",
+      "llm_evidence": "形式化面向演化领域的迁移学习，可直接应用于BCI随会话推进的数据流适应。",
+      "canonical_evidence": "形式化面向演化领域的迁移学习，可直接应用于BCI随会话推进的数据流适应。",
+      "llm_tldr_en": "Provides a unified framework for transfer learning when target data availability evolves over time, bridging domain adaptation and domain generalization.",
+      "llm_tldr_cn": "该文指出传统迁移学习研究被割裂为域泛化、域适应等孤立子领域，但实际应用中目标域数据是逐步到达的。作者将这种数据可用性随时间演化的场景形式化为一个完整的轨迹，提出统一框架以覆盖部署系统需经历的全过程。该框架为BCI跨天/跨会话的连续适应提供了理论基础和方法指导。",
+      "llm_tldr": "该文指出传统迁移学习研究被割裂为域泛化、域适应等孤立子领域，但实际应用中目标域数据是逐步到达的。作者将这种数据可用性随时间演化的场景形式化为一个完整的轨迹，提出统一框架以覆盖部署系统需经历的全过程。该框架为BCI跨天/跨会话的连续适应提供了理论基础和方法指导。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "transfer learning for brain-computer interface session adaptation",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2609.13507v1",
+      "source": "arxiv",
+      "title": "Pretraining for Sample-Efficient Neural Interfaces",
+      "abstract": "Brain-computer interfaces (BCIs) decode neural activity to restore lost function. Typically, training a high-performance neural decoder requires a large labeled dataset to be collected from every new subject. One way to reduce the labeled data cost is self-supervised pretraining, which learns general neural representations from unlabeled recordings that accumulate across subjects. However, for intracranial electroencephalography (iEEG) recordings, self-supervised learning has been challenging due to differences in contact placement and neuroanatomy between subjects. We propose MAPA, an otherwise vanilla masked autoencoder with two spatial encodings, an anatomical region embedding and a relative positional encoding, which together enable it to learn neural representations that transfer to unseen subjects and across various tasks. MAPA sets a new state of the art across all three regimes of the Neuroprobe benchmark without fine-tuning: within-session, cross-session, and cross-subject. In the cross-subject regime, a linear probe on MAPA's features needs only ${\\sim}164$ labeled trials to reach the accuracy that takes 3,500 without pretraining. Our results show that self-supervised pretraining can scale across heterogeneous iEEG recordings and reduce the labeled data needed for accurate decoding in new subjects.",
+      "authors": [
+        "Ben Tang",
+        "Zachary Spalding",
+        "Gregory B. Cogan"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "published": "2026-09-11T20:12:42+00:00",
+      "link": "https://arxiv.org/pdf/2609.13507v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "self-supervised pretraining learns general neural representations from unlabeled recordings",
+      "llm_evidence_cn": "自监督预训练从无标记记录中学习通用神经表示",
+      "llm_evidence": "自监督预训练从无标记记录中学习通用神经表示",
+      "canonical_evidence": "自监督预训练从无标记记录中学习通用神经表示",
+      "llm_tldr_en": "This paper addresses the high labeled data cost for training BCI decoders on new subjects. It proposes MAPA, a masked autoencoder with anatomical region and relative positional encodings for iEEG pretraining. Experiments show MAPA enables sample-efficient transfer to new subjects, reducing data requirements.",
+      "llm_tldr_cn": "该论文针对脑机接口解码器在新受试者上需要大量标注数据的问题，提出MAPA掩码自编码器预训练方法。MAPA通过解剖区域嵌入和相对位置编码处理颅内脑电图电极位置差异，从而学习跨受试者通用的神经表示。实验表明，预训练表示可显著减少新受试者下游解码所需的标注数据，为样本高效的脑机接口迁移学习提供了有效方案。",
+      "llm_tldr": "该论文针对脑机接口解码器在新受试者上需要大量标注数据的问题，提出MAPA掩码自编码器预训练方法。MAPA通过解剖区域嵌入和相对位置编码处理颅内脑电图电极位置差异，从而学习跨受试者通用的神经表示。实验表明，预训练表示可显著减少新受试者下游解码所需的标注数据，为样本高效的脑机接口迁移学习提供了有效方案。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "transfer learning for brain-computer interface session adaptation",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2609.24095v1",
+      "source": "arxiv",
+      "title": "HDND: Hierarchical Dynamic Neural Decoding for Multilingual Word/Character Retrieval from Non-Invasive Brain Recordings",
+      "abstract": "While deep learning has enabled language decoding from intracranial brain recordings, extending this capability to non-invasive recordings remains an unresolved challenge. Decoding individual words from non-invasive brain recordings is particularly difficult, as word-level neural evidence is weak, temporally distributed, and entangled with acoustic, lexical, and semantic structure. Existing retrieval pipelines often collapse these factors into a single representation, potentially discarding information available at intermediate temporal scales. Here, we introduce Hierarchical Dynamic Neural Decoding (HDND), a hierarchical dynamic decoding framework that treats word decoding as structured refinement rather than flat label retrieval. HDND combines intermediate neural representations, contextual semantic predictions, and, for selected reading conditions, an auxiliary character-form objective. We evaluate HDND across seven electroencephalography (EEG) and magnetoencephalography (MEG) datasets spanning English, Dutch, Mandarin, and Cantonese listening, reading, and reading-aloud conditions. Across the nine-condition word-retrieval benchmark, the proposed HDND yields a higher participant-averaged balanced Top-10 point estimate than the matched contextual word-decoding baseline in every condition and achieves the highest mean among all compared methods in eight of nine conditions. Across the same nine matched conditions, HDND also yields higher token-micro and pooled word-macro Top-10 point estimates in every setting. Sentence retrieval favors HDND in eight of nine conditions, while auditory speech-segment retrieval is mixed across the six listening conditions. These results show that hierarchical residual refinement can improve multilingual word retrieval from heterogeneous non-invasive brain recordings.",
+      "authors": [
+        "Yueyang Li",
+        "Shuran Chen",
+        "Wai Ting Siok",
+        "Nizhuan Wang"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-09-21T04:28:18+00:00",
+      "link": "https://arxiv.org/pdf/2609.24095v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "decoding individual words from non-invasive brain recordings",
+      "llm_evidence_cn": "从非侵入式脑记录中解码单词",
+      "llm_evidence": "从非侵入式脑记录中解码单词",
+      "canonical_evidence": "从非侵入式脑记录中解码单词",
+      "llm_tldr_en": "This paper tackles the challenge of decoding individual words from non-invasive brain recordings. It introduces HDND, a hierarchical dynamic decoding framework that refines word retrieval through intermediate temporal scales. Experiments show improved multilingual word/character retrieval, advancing non-invasive BCI language decoding.",
+      "llm_tldr_cn": "该论文针对非侵入式脑记录中单词解码困难的问题，提出层次动态神经解码框架。该框架将词解码建模为结构化细化过程，保留并利用中间时间尺度的神经信息。实验结果表明，该方法在多语言词/字符检索任务上优于现有方法，为扩展非侵入式脑机接口的语言解码能力提供了新思路。",
+      "llm_tldr": "该论文针对非侵入式脑记录中单词解码困难的问题，提出层次动态神经解码框架。该框架将词解码建模为结构化细化过程，保留并利用中间时间尺度的神经信息。实验结果表明，该方法在多语言词/字符检索任务上优于现有方法，为扩展非侵入式脑机接口的语言解码能力提供了新思路。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "neural decoding models for brain-computer interfaces",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2609.30831v1",
+      "source": "arxiv",
+      "title": "CDBG: Causally Motivated Dual-Invariance Learning against Topological and Predictive Shifts in EEG Workload Recognition",
+      "abstract": "Generalizing Electroencephalography (EEG)-based mental workload recognition to unseen subjects remains a formidable challenge due to severe inter-subject variability. While functional brain graphs effectively model distributed cognitive dynamics, their inherent subject-specificity induces two coupled distribution shifts: a class-conditional topological shift in the underlying functional connectivity, and a predictive mechanism shift in the learned representation-to-label mapping. Motivated by the subject-induced distribution shifts, we propose CDBG, a Causally motivated Dual-invariance learning framework for Brain Graphs. CDBG disentangles and mitigates these shifts via a two-stage rationale learning pipeline. First, it employs stochastic edge masking to extract sparse, workload-predictive graph rationales, regularized by workload-conditional Laplacian spectral alignment to enforce topological invariance across subjects. Second, it applies subject-wise Invariant Risk Minimization (IRM) to the graph representations, ensuring environment-wise risk stationarity. Extensive experiments on a self-built air traffic controller EEG cognitive workload dataset and multiple public datasets under a strict leave-one-subject-out protocol demonstrate that CDBG significantly outperforms state-of-the-art cross-subject and graph-based baselines, improving the Macro-F1 score by up to 4.23%, while simultaneously providing neurophysiologically interpretable functional rationales.",
+      "authors": [
+        "Yuzhe Zhang",
+        "Wenmin Zhou",
+        "Chengxi Xie",
+        "Kai He",
+        "Jihong Wang",
+        "Huan Liu",
+        "Man Yao",
+        "Daoqiang Zhang"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC"
+      ],
+      "published": "2026-09-25T05:22:06+00:00",
+      "link": "https://arxiv.org/pdf/2609.30831v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "EEG workload recognition with dual-invariance learning against distribution shifts",
+      "llm_evidence_cn": "EEG工作负荷识别中的双不变性学习对抗分布偏移",
+      "llm_evidence": "EEG工作负荷识别中的双不变性学习对抗分布偏移",
+      "canonical_evidence": "EEG工作负荷识别中的双不变性学习对抗分布偏移",
+      "llm_tldr_en": "This paper addresses inter-subject variability in EEG-based workload recognition by proposing CDBG, a causally motivated dual-invariance framework that disentangles topological and predictive shifts in brain graphs. Evaluated on unseen subjects, CDBG demonstrates improved generalization over baselines, offering a robust domain adaptation method for EEG decoding.",
+      "llm_tldr_cn": "针对EEG工作负荷识别中受试者间分布偏移问题，本文提出CDBG因果双不变性学习框架，解耦并减轻功能脑图中的拓扑偏移和预测偏移。通过在未知受试者上的实验，CDBG比基线方法取得更好泛化性能，为脑信号解码提供鲁棒域适应方案。",
+      "llm_tldr": "针对EEG工作负荷识别中受试者间分布偏移问题，本文提出CDBG因果双不变性学习框架，解耦并减轻功能脑图中的拓扑偏移和预测偏移。通过在未知受试者上的实验，CDBG比基线方法取得更好泛化性能，为脑信号解码提供鲁棒域适应方案。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "domain adaptation techniques for brain signal decoding",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2609.33962v1",
+      "source": "arxiv",
+      "title": "EEG-Fusion: Failure-Informed Source-Free Expert Routing for Robust Motor Imagery EEG Decoding",
+      "abstract": "Subject-independent motor-imagery (MI) EEG decoding can exhibit subject-level failures even when average performance appears acceptable: under subject shift, a decoder can become an overconfident near-one-class predictor. This is especially problematic in source-free deployment, where target-user labels are unavailable during adaptation and expert selection. We present \\textit{EEG-Fusion}, a failure-informed decision-level fusion framework that treats source-free MI decoding as label-free reliability estimation over heterogeneous experts. EEG-Fusion applies subject-wise Euclidean alignment and normalization-only test-time adaptation, then routes each target subject to a neural, covariance-based, or physiological-feature expert using a reliability gate trained on source-held-out folds to predict expert performance and collapse risk from label-free stream diagnostics. The gate uses confidence, entropy, prediction diversity, expert agreement, and predicted class balance; collapse is measured as the maximum predicted class fraction. In 9-fold leave-one-subject-out (LOSO) evaluation with three seeds, relative to a no-alignment raw EEGNet source-free anchor, EEG-Fusion improves subject macro-F1 from 0.417 to 0.529 on BCI IV-2a local protocol, from 0.314 to 0.482 on BNCI2014-001, and from 0.607 to 0.708 on BNCI2014-004; corresponding collapse-index reductions are 0.199, 0.227, and 0.169. In a 9-subject Cho2017 external subset, EEG-Fusion improves macro-F1 from 0.516 to 0.630. These results suggest that label-free reliability estimation can reduce subject-level failure modes in source-free MI-EEG deployment.",
+      "authors": [
+        "Abdul Basit",
+        "Saim Rehman",
+        "Muhammad Shafique"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.LG",
+        "eess.SP"
+      ],
+      "published": "2026-09-27T22:00:11+00:00",
+      "link": "https://arxiv.org/pdf/2609.33962v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "source-free domain adaptation for motor imagery EEG decoding via failure-informed expert routing",
+      "llm_evidence_cn": "面向运动想象EEG解码的无源域适应，基于失效信息的专家路由",
+      "llm_evidence": "面向运动想象EEG解码的无源域适应，基于失效信息的专家路由",
+      "canonical_evidence": "面向运动想象EEG解码的无源域适应，基于失效信息的专家路由",
+      "llm_tldr_en": "EEG-Fusion tackles subject-level failures in source-free motor imagery EEG decoding by using a failure-informed decision-level fusion framework with expert routing based on reliability estimation.",
+      "llm_tldr_cn": "EEG-Fusion针对源自由运动想象EEG解码中因主体转移导致的过自信单类预测问题，提出失效信息驱动的决策级融合框架，将源自由MI解码视为无标签可靠性估计并路由不同专家。应用欧几里得对齐和仅归一化测试时适应，实验表明该方法提升了目标主体上的鲁棒性，为无监督BCI域适应提供了有效策略。",
+      "llm_tldr": "EEG-Fusion针对源自由运动想象EEG解码中因主体转移导致的过自信单类预测问题，提出失效信息驱动的决策级融合框架，将源自由MI解码视为无标签可靠性估计并路由不同专家。应用欧几里得对齐和仅归一化测试时适应，实验表明该方法提升了目标主体上的鲁棒性，为无监督BCI域适应提供了有效策略。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "domain adaptation techniques for brain signal decoding",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2609.39413v1",
+      "source": "arxiv",
+      "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
+      "abstract": "The success of cross-subject multimodal emotion recognition hinges on maintaining the consistency of the joint data distribution across individuals. However, real-world deployment frequently triggers the \\emph{asymmetric joint distribution collapse}: EEG signals suffer from severe cross-subject distribution shifts, while eye movements sensors are susceptible to packet loss and tracking failures. Existing methods treat domain adaptation and missing-modality imputation as disjoint tasks. Consequently, they fail to resolve the compounded errors when both degradations co-occur, either propagating domain shifts through imputed signals or destroying the joint decision boundary. To tackle this unified challenge, we propose GUARD (\\textbf{G}radient-guided \\textbf{U}nsupervised \\textbf{A}symmetric \\textbf{R}ecovery of \\textbf{D}istributions). First, GUARD establishes a reliable anchor manifold in the source domain by employing a theoretically grounded gradient-weighted objective, which forces the robust EEG modality to preemptively entangle task-discriminative ocular features. Next, to structurally recover the collapsed joint distribution, we constrain a generative module with downstream perceptual losses, prioritizing emotion-discriminative semantics over mere signal fidelity. Finally, we formulate target-domain adaptation as an ill-posed inverse problem. By driving a cycle-consistent flow, we achieve unsupervised calibration of the recovered joint distribution directly on the target-domain manifold. Extensive experiments demonstrate that GUARD significantly outperforms state-of-the-art methods, maintaining resilient discriminative performance even under complete auxiliary modality failure. Our code and models are made publicly available to ensure complete reproducibility.",
+      "authors": [
+        "Yang Wu",
+        "Jinpeng Li"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC"
+      ],
+      "published": "2026-09-30T09:53:16+00:00",
+      "link": "https://arxiv.org/pdf/2609.39413v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "cross-subject multimodal EEG-eye emotion recognition with joint distribution calibration",
+      "llm_evidence_cn": "跨受试者多模态EEG-眼动情绪识别与联合分布校准",
+      "llm_evidence": "跨受试者多模态EEG-眼动情绪识别与联合分布校准",
+      "canonical_evidence": "跨受试者多模态EEG-眼动情绪识别与联合分布校准",
+      "llm_tldr_en": "This paper addresses the asymmetric joint distribution collapse in cross-subject multimodal EEG-eye emotion recognition, where EEG suffers from distribution shift and eye movements have missing data. The proposed GUARD method jointly calibrates distributions and imputes missing modalities, improving robustness and accuracy under both degradations, thus advancing domain adaptation for brain-signal based emotion decoding.",
+      "llm_tldr_cn": "针对跨受试者多模态EEG-眼动情绪识别中EEG分布偏移与眼动信号缺失并存的非对称联合分布坍塌问题，本文提出GUARD方法，联合校准分布并插补缺失模态。实验表明该方法在双重退化下保持较好决策边界，提升了脑信号情绪解码的鲁棒性。",
+      "llm_tldr": "针对跨受试者多模态EEG-眼动情绪识别中EEG分布偏移与眼动信号缺失并存的非对称联合分布坍塌问题，本文提出GUARD方法，联合校准分布并插补缺失模态。实验表明该方法在双重退化下保持较好决策边界，提升了脑信号情绪解码的鲁棒性。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "domain adaptation techniques for brain signal decoding",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2610.01124v1",
+      "source": "arxiv",
+      "title": "CortexBridge: Cortical Alignment of EEG Montages for Foundation Models",
+      "abstract": "Electroencephalography (EEG) foundation models are often pretrained with a fixed channel vocabulary or a limited set of montages, making transfer difficult when electrode layouts change. We propose CortexBridge, a lightweight adapter that combines EEG features with electrode and atlas coordinates to map arbitrary montages into a shared cortical latent space. Evaluated with three frozen foundation models on five brain-computer interface (BCI) datasets from the Mother of All BCI Benchmarks (MOABB), CortexBridge improves performance in 13 of 15 evaluations. The gains in balanced accuracy average 0.80% for EEGPT, 0.70% for LaBraM, and 3.26% for CBraMod, with a maximum gain of 13.02% on 12-class steady-state visual evoked potential (SSVEP) classification. Visualizations of the learned atlas representations reveal task-dependent spatial patterns, with SSVEP showing a more concentrated representation in the Yeo Visual network than auditory P300. These results establish cortical alignment as a learnable and anatomically grounded routing mechanism from heterogeneous EEG montages to pretrained foundation models.",
+      "authors": [
+        "Jiazhen Hong",
+        "Xiaotian Zhou",
+        "Zihao Ding",
+        "Kailong Wang",
+        "Yu Wu"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "eess.SP"
+      ],
+      "published": "2026-10-01T06:08:56+00:00",
+      "link": "https://arxiv.org/pdf/2610.01124v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "cortical alignment adapter maps arbitrary EEG montages to shared latent space, evaluated on BCI datasets",
+      "llm_evidence_cn": "皮质对齐适配器将任意EEG蒙太奇映射到共享潜空间，在BCI数据集上评估",
+      "llm_evidence": "皮质对齐适配器将任意EEG蒙太奇映射到共享潜空间，在BCI数据集上评估",
+      "canonical_evidence": "皮质对齐适配器将任意EEG蒙太奇映射到共享潜空间，在BCI数据集上评估",
+      "llm_tldr_en": "CortexBridge is a lightweight adapter that aligns arbitrary EEG montages into a shared cortical latent space using electrode coordinates, improving frozen foundation models' transfer across BCI datasets.",
+      "llm_tldr_cn": "针对EEG基础模型因固定通道词汇或蒙太奇限制导致跨电极布局迁移困难的问题，该文提出CortexBridge轻量适配器，将EEG特征与电极和图谱坐标结合，映射到共享皮质潜空间。在MOABB的五个BCI数据集上，三个冻结基础模型在15项评估中13项性能提升，平均平衡准确率提高0.8%至3.26%，证明了皮质对齐对跨蒙太奇迁移的有效性。",
+      "llm_tldr": "针对EEG基础模型因固定通道词汇或蒙太奇限制导致跨电极布局迁移困难的问题，该文提出CortexBridge轻量适配器，将EEG特征与电极和图谱坐标结合，映射到共享皮质潜空间。在MOABB的五个BCI数据集上，三个冻结基础模型在15项评估中13项性能提升，平均平衡准确率提高0.8%至3.26%，证明了皮质对齐对跨蒙太奇迁移的有效性。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "Identify domain adaptation algorithms for EEG based brain computer interfaces across sessions",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch"
+    }
+  ]
+}

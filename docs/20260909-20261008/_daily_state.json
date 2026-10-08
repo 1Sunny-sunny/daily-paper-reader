@@ -1,0 +1,249 @@
+{
+  "date": "20260909-20261008",
+  "date_label": "2026-09-09 ~ 2026-10-08",
+  "generated_at": "2026-10-08 07:49:36 UTC",
+  "recommend_exists": true,
+  "run_count": 1,
+  "papers": [
+    {
+      "paper_id": "2609.27441v1",
+      "route": "20260909-20261008/2609.27441v1-stable-neural-decoding-across-sessions-via-task-conditioned-latent-alignment-for-brain-machine-interfaces",
+      "title": "Stable Neural Decoding Across Sessions via Task-Conditioned Latent Alignment for Brain-Machine Interfaces",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 10.0,
+      "evidence": "提出通过任务条件潜在对齐实现BMI跨会话稳定神经解码",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2609.39080v1",
+      "route": "20260909-20261008/2609.39080v1-association-profile-conditioning-in-a-set-temporal-transformer-for-cross-session-intracortical-motor-decoding",
+      "title": "Association profile conditioning in a set-temporal transformer for cross-session intracortical motor decoding",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 10.0,
+      "evidence": "皮层内运动解码器跨会话性能下降",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2609.27650v2",
+      "route": "20260909-20261008/2609.27650v2-brain-to-language-decoding-tasks-signals-methods-evaluation-practical-use-and-beyond",
+      "title": "Brain-to-Language Decoding: Tasks, Signals, Methods, Evaluation, Practical Use and Beyond",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 9.0,
+      "evidence": "脑到语言解码综述用于恢复交流",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2610.02864v1",
+      "route": "20260909-20261008/2610.02864v1-neurolens-learning-latent-embeddings-of-neural-semantics-from-chronic-recordings",
+      "title": "NeuroLens: Learning Latent Embeddings of Neural Semantics from Chronic Recordings",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 9.0,
+      "evidence": "从慢性神经记录学习稳定潜在嵌入，区分表征可塑性与记录不稳定性。",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2610.03001v1",
+      "route": "20260909-20261008/2610.03001v1-neural-data-needs-semantic-tokenization-behavioral-events-as-boundaries-of-session-transferable-tokens",
+      "title": "Neural Data Needs Semantic Tokenization: Behavioral Events as Boundaries of Session-Transferable Tokens",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 9.0,
+      "evidence": "基于行为事件提出可跨会话迁移的标记，使神经模型能在不同神经元集合的会话间泛化。",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2610.06315v1",
+      "route": "20260909-20261008/2610.06315v1-spdalign-interpretable-riemannian-alignment-for-eeg-forward-modeling-shifts",
+      "title": "SPDAlign: Interpretable Riemannian Alignment for EEG Forward Modeling Shifts",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 9.0,
+      "evidence": "针对EEG跨会话和跨被试分布偏移的无监督黎曼对齐",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2610.07420v1",
+      "route": "20260909-20261008/2610.07420v1-benchmarking-label-revealed-online-updates-for-eeg-bci-decoding",
+      "title": "Benchmarking Label-Revealed Online Updates for EEG BCI Decoding",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 9.0,
+      "evidence": "脑电信号随时间漂移及BCI在线自适应基准",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2609.09786v1",
+      "route": "20260909-20261008/2609.09786v1-nexus-mi-communication-aware-federated-personalization-for-gateway-coordinated-motor-imagery-brain-computer-interfaces",
+      "title": "NEXUS-MI: Communication-Aware Federated Personalization for Gateway-Coordinated Motor-Imagery Brain-Computer Interfaces",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "针对运动想象脑机接口的联邦个性化，处理被试和会话差异",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2609.13039v1",
+      "route": "20260909-20261008/2609.13039v1-transfer-learning-for-evolving-domains",
+      "title": "Transfer Learning for Evolving Domains",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "形式化面向演化领域的迁移学习，可直接应用于BCI随会话推进的数据流适应。",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2609.13507v1",
+      "route": "20260909-20261008/2609.13507v1-pretraining-for-sample-efficient-neural-interfaces",
+      "title": "Pretraining for Sample-Efficient Neural Interfaces",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "自监督预训练从无标记记录中学习通用神经表示",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2609.24095v1",
+      "route": "20260909-20261008/2609.24095v1-hdnd-hierarchical-dynamic-neural-decoding-for-multilingual-wordcharacter-retrieval-from-non-invasive-brain-recordings",
+      "title": "HDND: Hierarchical Dynamic Neural Decoding for Multilingual Word/Character Retrieval from Non-Invasive Brain Recordings",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "从非侵入式脑记录中解码单词",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2609.30831v1",
+      "route": "20260909-20261008/2609.30831v1-cdbg-causally-motivated-dual-invariance-learning-against-topological-and-predictive-shifts-in-eeg-workload-recognition",
+      "title": "CDBG: Causally Motivated Dual-Invariance Learning against Topological and Predictive Shifts in EEG Workload Recognition",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "EEG工作负荷识别中的双不变性学习对抗分布偏移",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2609.33962v1",
+      "route": "20260909-20261008/2609.33962v1-eeg-fusion-failure-informed-source-free-expert-routing-for-robust-motor-imagery-eeg-decoding",
+      "title": "EEG-Fusion: Failure-Informed Source-Free Expert Routing for Robust Motor Imagery EEG Decoding",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "面向运动想象EEG解码的无源域适应，基于失效信息的专家路由",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2609.39413v1",
+      "route": "20260909-20261008/2609.39413v1-aligning-the-incomplete-joint-distribution-calibration-for-multimodal-eeg-eye-emotion-recognition",
+      "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "跨受试者多模态EEG-眼动情绪识别与联合分布校准",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    },
+    {
+      "paper_id": "2610.01124v1",
+      "route": "20260909-20261008/2610.01124v1-cortexbridge-cortical-alignment-of-eeg-montages-for-foundation-models",
+      "title": "CortexBridge: Cortical Alignment of EEG Montages for Foundation Models",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "皮质对齐适配器将任意EEG蒙太奇映射到共享潜空间，在BCI数据集上评估",
+      "first_seen_at": "2026-10-08 07:49:36 UTC",
+      "updated_at": "2026-10-08 07:49:36 UTC"
+    }
+  ]
+}
