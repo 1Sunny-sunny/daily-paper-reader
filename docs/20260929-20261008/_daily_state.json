@@ -1,0 +1,281 @@
+{
+  "date": "20260929-20261008",
+  "date_label": "2026-09-29 ~ 2026-10-08",
+  "generated_at": "2026-10-08 08:09:52 UTC",
+  "recommend_exists": true,
+  "run_count": 1,
+  "papers": [
+    {
+      "paper_id": "2609.39080v1",
+      "route": "20260929-20261008/2609.39080v1-association-profile-conditioning-in-a-set-temporal-transformer-for-cross-session-intracortical-motor-decoding",
+      "title": "Association profile conditioning in a set-temporal transformer for cross-session intracortical motor decoding",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 9.0,
+      "evidence": "通过关联轮廓条件化与冻结权重的跨会话皮层内运动解码",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2610.03001v1",
+      "route": "20260929-20261008/2610.03001v1-neural-data-needs-semantic-tokenization-behavioral-events-as-boundaries-of-session-transferable-tokens",
+      "title": "Neural Data Needs Semantic Tokenization: Behavioral Events as Boundaries of Session-Transferable Tokens",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 9.0,
+      "evidence": "神经基础模型无法泛化到新会话；提出使用行为事件作为会话可迁移令牌的令牌化器",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2610.06315v1",
+      "route": "20260929-20261008/2610.06315v1-spdalign-interpretable-riemannian-alignment-for-eeg-forward-modeling-shifts",
+      "title": "SPDAlign: Interpretable Riemannian Alignment for EEG Forward Modeling Shifts",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 9.0,
+      "evidence": "无监督域适应处理脑电BCI会话/受试者偏移的黎曼对齐",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2610.07420v1",
+      "route": "20260929-20261008/2610.07420v1-benchmarking-label-revealed-online-updates-for-eeg-bci-decoding",
+      "title": "Benchmarking Label-Revealed Online Updates for EEG BCI Decoding",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 9.0,
+      "evidence": "EEG信号随时间漂移；基准测试BCI解码的在线自适应",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2609.37601v1",
+      "route": "20260929-20261008/2609.37601v1-sense-semantic-neural-speech-synthesis-from-brain-dynamics-via-spatial-graph-encoding",
+      "title": "SENSE: Semantic Neural Speech Synthesis from Brain Dynamics via Spatial Graph Encoding",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "用于脑机接口通信的脑电语音合成",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2609.39421v1",
+      "route": "20260929-20261008/2609.39421v1-ideal-a-multimodal-domain-adaptation-framework-for-eeg-eye-emotion-recognition",
+      "title": "IDEAL: A Multimodal Domain Adaptation Framework for EEG-Eye Emotion Recognition",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "提出IDEAL，针对个体变异的脑电-眼动情绪识别多模态域适应框架",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2610.02864v1",
+      "route": "20260929-20261008/2610.02864v1-neurolens-learning-latent-embeddings-of-neural-semantics-from-chronic-recordings",
+      "title": "NeuroLens: Learning Latent Embeddings of Neural Semantics from Chronic Recordings",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "从慢性神经记录学习去噪潜在嵌入，自适应编码器将变化的神经群体映射到共同潜在空间",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2610.03546v1",
+      "route": "20260929-20261008/2610.03546v1-zeromag-zero-shot-multimodal-adapter-generation-for-plug-and-play-eeg-foundation-models",
+      "title": "ZeroMAG: Zero-Shot Multimodal Adapter Generation for Plug-and-Play EEG Foundation Models",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "零样本多模态适配器生成，利用无标签目标数据适配脑电基础模型",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2609.36736v1",
+      "route": "20260929-20261008/2609.36736v1-from-neurons-to-conversation-speech-brain-computer-interfaces",
+      "title": "From Neurons to Conversation: Speech Brain-Computer Interfaces",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "语音BCI将神经活动转化为文本/语音；神经表征随时间变化的适应性系统",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2609.39413v1",
+      "route": "20260929-20261008/2609.39413v1-aligning-the-incomplete-joint-distribution-calibration-for-multimodal-eeg-eye-emotion-recognition",
+      "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "跨被试脑电分布偏移；多模态脑电情绪识别的领域自适应",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2609.39810v1",
+      "route": "20260929-20261008/2609.39810v1-a-comprehensive-benchmark-of-source-free-universal-domain-adaptation-on-time-series-representations",
+      "title": "A Comprehensive Benchmark of Source-Free Universal Domain Adaptation on Time Series Representations",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "提供时间序列上首个源无关通用域适应基准及解决阈值敏感性的插件",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2610.01124v1",
+      "route": "20260929-20261008/2610.01124v1-cortexbridge-cortical-alignment-of-eeg-montages-for-foundation-models",
+      "title": "CortexBridge: Cortical Alignment of EEG Montages for Foundation Models",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "通过皮层对齐实现跨蒙太奇的EEG域适应",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2610.07120v1",
+      "route": "20260929-20261008/2610.07120v1-towards-semantic-reconstruction-of-individual-words-from-fnirs-using-clip-loss",
+      "title": "Towards semantic reconstruction of individual words from fnirs using clip loss",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "fNIRS神经解码模型采用Bi-LSTM和CLIP损失",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2609.36971v1",
+      "route": "20260929-20261008/2609.36971v1-structured-visual-target-learning-for-cross-subject-eeg-to-image-retrieval",
+      "title": "Structured Visual Target Learning For Cross-Subject eeg-to-image retrieval",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "跨被试脑电到图像检索采用MMD正则化和免训练细化进行脑电域适应",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2609.38587v1",
+      "route": "20260929-20261008/2609.38587v1-neurduo-eeg-a-long-sequence-eeg-foundation-model-with-persistent-state-and-explicit-memory",
+      "title": "NeurDuo-EEG: A Long-Sequence EEG Foundation Model with Persistent State and Explicit Memory",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "长序列脑电基础模型，具备持久状态和显式记忆，用于连续脑电建模",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2610.00746v1",
+      "route": "20260929-20261008/2610.00746v1-meg-mamba-a-scalable-state-space-foundation-model-for-magnetoencephalography",
+      "title": "MEG-Mamba: A Scalable State-Space Foundation Model for Magnetoencephalography",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "MEG基础模型，条件于脑区和记录会话，用于神经活动建模",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    },
+    {
+      "paper_id": "2610.03558v1",
+      "route": "20260929-20261008/2610.03558v1-cephalonauts-one-a-deep-fmri-dataset-for-decoding-naturalistic-speech-in-the-human-brain",
+      "title": "Cephalonauts One: A deep fMRI dataset for decoding naturalistic speech in the human brain",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "多会话fMRI数据集；留出会话的语音解码基准",
+      "first_seen_at": "2026-10-08 08:09:52 UTC",
+      "updated_at": "2026-10-08 08:09:52 UTC"
+    }
+  ]
+}
