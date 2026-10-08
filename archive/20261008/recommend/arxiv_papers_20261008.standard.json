@@ -1,0 +1,214 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-10-08T23:54:52.831671+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 4,
+    "quick_skim_target": 11,
+    "quick_selected": 4
+  },
+  "deep_dive": [
+    {
+      "id": "2610.07713v2",
+      "source": "arxiv",
+      "title": "Neuromotor Hierarchy Network: Physiological Inductive Biases for Robust Generalization in sEMG Decoding",
+      "abstract": "Surface electromyography (sEMG) provides a wearable, noninvasive interface to neuromuscular activity for movement decoding and human-computer interaction. Population-scale decoding remains difficult because the relationship between sEMG and neuromuscular activity varies across users and sessions, while task-relevant dynamics span channels and multiple timescales. Learning waveform-to-output mappings from task labels leaves the distinction between recording variability and coordinated motor activity implicit. We introduce the Neuromotor Hierarchy Network (NHN), which learns a compact latent neuromotor state from task supervision to represent task-relevant neuromuscular coordination. NHN constructs this latent state through a hierarchy inspired by neuromotor organization. It adapts recording statistics while preserving relative intensity. Its spatiotemporal encoder uses parameter-efficient channel interactions and modulates features with multi-timescale history. The resulting features yield candidate activations of learned motor primitives, which are temporally integrated and continuously weighted to form the state. Theoretical analysis characterizes the efficiency, temporal behavior, and optimization of NHN's core mechanisms. We evaluate the architecture for both continuous hand-pose estimation on emg2pose and touch-typing recognition on emg2qwerty. On emg2pose, NHN reduces user-averaged angular error by 0.52% to 2.84% across all three generalization splits in both Regression and Tracking relative to Hadidi et al.'s best task-specific variants, using 48.42% to 48.51% fewer parameters. On emg2qwerty, NHN reduces beam-search character error rate by 19.40% zero-shot and 30.42% after fine-tuning relative to SplashNet-Upscale, using 65.86% fewer parameters. Physiology-guided inference of a latent neuromotor state supports parameter-efficient sEMG decoding.",
+      "authors": [
+        "He Wang",
+        "Hongyuan Qi",
+        "Zhaoxian Zhang",
+        "Jinbin Luo",
+        "Linyi He",
+        "Mehul Motani",
+        "Changsheng Wu"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-10-06T04:08:41+00:00",
+      "link": "https://arxiv.org/pdf/2610.07713v2",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Addresses cross-session and cross-user variability in sEMG decoding using physiological inductive biases",
+      "llm_evidence_cn": "利用生理先验解决表面肌电解码中跨会话和跨用户变异性",
+      "llm_evidence": "利用生理先验解决表面肌电解码中跨会话和跨用户变异性",
+      "canonical_evidence": "利用生理先验解决表面肌电解码中跨会话和跨用户变异性",
+      "llm_tldr_en": "Proposes Neuromotor Hierarchy Network that learns compact latent neuromotor state to improve robust generalization in sEMG decoding across users and sessions.",
+      "llm_tldr_cn": "该论文针对表面肌电（sEMG）解码中跨用户和跨会话变异性导致泛化困难的问题，提出神经运动层级网络（NHN），通过任务监督学习紧凑的潜在神经运动状态，表示任务相关的神经肌肉协调。NHN利用生理归纳偏置构建潜在状态，从而区分记录变异性与协调运动活动。实验表明该方法在跨会话和跨用户解码中具有稳健的泛化能力，为可穿戴人机交互提供了一种有效途径。",
+      "llm_tldr": "该论文针对表面肌电（sEMG）解码中跨用户和跨会话变异性导致泛化困难的问题，提出神经运动层级网络（NHN），通过任务监督学习紧凑的潜在神经运动状态，表示任务相关的神经肌肉协调。NHN利用生理归纳偏置构建潜在状态，从而区分记录变异性与协调运动活动。实验表明该方法在跨会话和跨用户解码中具有稳健的泛化能力，为可穿戴人机交互提供了一种有效途径。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "handling session-to-session variability in neural recordings",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2610.00397v1",
+      "source": "arxiv",
+      "title": "NEUROTOKEN: Joint Source and Directional AAD with Envelope Decoding via Conditional Flow Matching",
+      "abstract": "Identifying which speaker a listener is attending to in a noisy room -- the cocktail-party problem -- is the missing ingredient for next-generation hearing aids and brain-computer interfaces: it tells the device whose voice to amplify. Auditory attention decoding (AAD) reads this answer from EEG, but the literature splits into disconnected pieces: directional-AAD classifies side but does not map side to stream; regression-based source-AAD ranks candidate streams by a single Pearson correlation that is intrinsically noisy at the 1-5 s windows real devices need; and envelope reconstruction has no native AAD rule. We argue the right object is not any single statistic but the conditional likelihood of the attended envelope given EEG, and we make this practical with NEUROTOKEN: a single network whose three heads share one EEG front-end, with a conditional flow-matching head (ATTUNEFLOW) that scores candidates by an integrated velocity-residual likelihood ratio. Two inference-time ensembles -- QUADTRACK (four complementary statistics) and ENV-FLOW (z-normalised QUADTRACK+ATTUNEFLOW) -- absorb per-statistic failure modes for free. On KU Leuven, DTU, and NJU at 5 s, ATTUNEFLOW lifts per-segment source-AAD by 9%-16% over the strongest non-generative baseline and shrinks across-subject variance by ~3x; trial-level fusion exceeds 93% on two of three datasets. In parallel reproductions we show that canonical 95-97% direction-AAD numbers collapse by 17%-45% under a strict trial-disjoint protocol, clarifying both the true ceiling and why a likelihood-based formulation is needed.",
+      "authors": [
+        "Ali Alavi",
+        "Donald S. Williamson"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-09-30T11:55:25+00:00",
+      "link": "https://arxiv.org/pdf/2610.00397v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "EEG-based auditory attention decoding for brain-computer interfaces",
+      "llm_evidence_cn": "基于EEG的听觉注意力解码用于脑机接口",
+      "llm_evidence": "基于EEG的听觉注意力解码用于脑机接口",
+      "canonical_evidence": "基于EEG的听觉注意力解码用于脑机接口",
+      "llm_tldr_en": "The paper proposes NEUROTOKEN, a conditional flow matching method for joint source and directional auditory attention decoding from EEG, addressing the cocktail-party problem for hearing aids and BCI. It models conditional likelihood of attended envelope given neural signals, unifying classification and reconstruction approaches.",
+      "llm_tldr_cn": "现有听觉注意力解码方法相互割裂，难以在短时窗内稳健工作。本文提出NEUROTOKEN，利用条件流匹配统一源与方向听觉注意力解码，直接建模受注意包络的条件似然。该方法有望突破传统单统计量限制，为助听器和脑机接口提供更鲁棒的实时解码方案。",
+      "llm_tldr": "现有听觉注意力解码方法相互割裂，难以在短时窗内稳健工作。本文提出NEUROTOKEN，利用条件流匹配统一源与方向听觉注意力解码，直接建模受注意包络的条件似然。该方法有望突破传统单统计量限制，为助听器和脑机接口提供更鲁棒的实时解码方案。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "neural decoding models for brain-computer interfaces",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2610.07229v1",
+      "source": "arxiv",
+      "title": "Conditional Flow Matching for Transport Between Markov Processes",
+      "abstract": "Motivated by sequence-to-sequence transport in the context time-series domain adaptation, we study the problem of transportation between trajectories of Markov processes. Given a limited number of trajectories from source distribution and the target distribution, we formulate a flow matching based algorithm which learns a transport map from the source to target trajectory distribution, while preserving the Markov structure. We show that this is consistent in the population limit and derive finite-sample error bounds under mixing time assumptions, following the analysis of classical statistical problems including regression (Nagaraj et al., 2020), principal component analysis (Kumar and Sarkar, 2023), and matrix concentration (Neeman et al., 2024) in the Markov setting. We complement that with a lower-bound construction showing that a mixing-time dependent sample complexity is unavoidable even with regular Gaussian conditional transitions. We evaluate on synthetic and real-world data. For image retrieval from electroencephalography (EEG) on THINGS-EEG2 (Gifford et al., 2022), the task is to identify the viewed image from EEG signals captured from human subjects, which suffers from high inter subject variability. We augment the ENIGMA decoder (Kneeland et al., 2026) with a conditional flow before its subject-specific temporal map. This improves mean top-5 retrieval accuracy from 43.87% to 49.05%, an 11.82% relative improvement.",
+      "authors": [
+        "Syamantak Kumar",
+        "Dheeraj Nagaraj",
+        "Saptarshi Roy",
+        "Purnamrita Sarkar"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "published": "2026-10-05T18:35:47+00:00",
+      "link": "https://arxiv.org/pdf/2610.07229v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "time-series domain adaptation via transport between Markov process trajectories",
+      "llm_evidence_cn": "时间序列领域适应中的马尔可夫过程轨迹传输",
+      "llm_evidence": "时间序列领域适应中的马尔可夫过程轨迹传输",
+      "canonical_evidence": "时间序列领域适应中的马尔可夫过程轨迹传输",
+      "llm_tldr_en": "Proposes conditional flow matching to transport trajectories between Markov processes for domain adaptation, with theoretical guarantees.",
+      "llm_tldr_cn": "该工作针对时间序列领域适应中的序列到序列传输问题，研究马尔可夫过程轨迹之间的运输。作者提出基于条件流匹配的算法，在保留马尔可夫结构的前提下学习从源到目标轨迹分布的传输映射。理论分析证明了该方法在总体意义上的相合性，并在混合时间假设下推导了有限样本误差界，分析框架借鉴了回归、主成分分析和矩阵集中等经典统计问题。这一方法为包括脑信号在内的时序领域适应提供了泛化工具和理论保证。",
+      "llm_tldr": "该工作针对时间序列领域适应中的序列到序列传输问题，研究马尔可夫过程轨迹之间的运输。作者提出基于条件流匹配的算法，在保留马尔可夫结构的前提下学习从源到目标轨迹分布的传输映射。理论分析证明了该方法在总体意义上的相合性，并在混合时间假设下推导了有限样本误差界，分析框架借鉴了回归、主成分分析和矩阵集中等经典统计问题。这一方法为包括脑信号在内的时序领域适应提供了泛化工具和理论保证。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "domain adaptation techniques for brain signal decoding",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2610.09352v1",
+      "source": "arxiv",
+      "title": "Many Brains, One Geometry: A Shared Visual-Semantic Space for Cross-Dataset fMRI Decoding",
+      "abstract": "Visual decoding from fMRI is typically siloed by participant and experiment, obscuring whether heterogeneous neural measurements can be organized within a common computational geometry. Here we introduce BRAID-fMRI (Brain Representation Alignment across Individuals and Datasets), a shared CLIP-supervised decoding framework. BRAID-fMRI uses a single ROI-wise Transformer with optional participant conditioning across eight visual-fMRI datasets comprising 93 dataset-specific participant entries, 430,007 single-trial responses and 162,839 unique stimuli. Regional brain activity is aligned with 512-dimensional CLIP ViT-B/32 representations using a multi-positive contrastive objective that treats repeated stimuli across participants and datasets as positives. BRAID-fMRI supports retrieval across seven evaluation datasets. On eight matched participant entries, it achieves 35.0 +/- 11.1% Top-10 accuracy, exceeding the observed mean accuracy of the two evaluated baselines - the MindEye-style pooled-CLIP decoder (27.1 +/- 5.1%) and ridge regression (21.1 +/- 9.1%) - and attaining the highest observed accuracy for seven of eight entries. In separately trained participant-agnostic models, expanding the source pool increased target-dataset holdout accuracy by up to 92.1% relative to the initial source-training condition. The learned space preserves graded semantic structure, while ablations and saliency highlight ventral and early visual cortex and category-specific motion and attentional systems. These results support scalable cross-dataset decoding into a common CLIP-aligned space, with model sensitivity concentrated in ventral and early visual inputs.",
+      "authors": [
+        "Moein Khajehnejad",
+        "Michelangelo Tronti",
+        "Forough Habibollahi",
+        "Tommaso Boccato",
+        "Matteo Ferrante",
+        "Nicola Toschi"
+      ],
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC",
+        "q-bio.NC",
+        "q-bio.QM"
+      ],
+      "published": "2026-10-07T03:11:16+00:00",
+      "link": "https://arxiv.org/pdf/2610.09352v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "shared CLIP-supervised decoding framework aligns brain activity across participants and datasets",
+      "llm_evidence_cn": "共享CLIP监督的解码框架对齐跨被试和跨数据集的大脑活动",
+      "llm_evidence": "共享CLIP监督的解码框架对齐跨被试和跨数据集的大脑活动",
+      "canonical_evidence": "共享CLIP监督的解码框架对齐跨被试和跨数据集的大脑活动",
+      "llm_tldr_en": "BRAID-fMRI uses a single ROI-wise Transformer with optional participant conditioning to align regional brain activity with CLIP representations across eight visual-fMRI datasets, enabling cross-dataset decoding.",
+      "llm_tldr_cn": "针对fMRI视觉解码通常局限于单个被试和实验的问题，提出BRAID-fMRI框架，使用ROI级Transformer和可选被试条件，将区域脑活动与CLIP表示对齐。在八个视觉fMRI数据集上验证，实现了跨数据集解码，揭示了异构神经测量可组织在共同计算几何中。",
+      "llm_tldr": "针对fMRI视觉解码通常局限于单个被试和实验的问题，提出BRAID-fMRI框架，使用ROI级Transformer和可选被试条件，将区域脑活动与CLIP表示对齐。在八个视觉fMRI数据集上验证，实现了跨数据集解码，揭示了异构神经测量可组织在共同计算几何中。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "handling session-to-session variability in neural recordings",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2610.09355v1",
+      "source": "arxiv",
+      "title": "Multimodal LLMs Can Learn to Read Brain Signals: A Vision--Language Model for Unified Multi-Task EEG Decoding",
+      "abstract": "Learning EEG representations that generalize across cognitive tasks, subjects, and recording conditions remains a key challenge in electroencephalography (EEG) decoding. Recent advances in foundation models have improved EEG decoding performance, yet a fundamental open question remains: how to effectively interface neural signals with these models to enable multi-task learning across datasets. To investigate this question, we introduce BraVista, a visual-language framework that encodes multichannel EEG signals as structured images and enables multi-task learning through instruction-conditioned vision-language models (VLMs). Our approach relies on continued post-training of a general-domain VLM, leveraging its visual and linguistic priors to adapt to neural signals without a separate large-scale EEG-specific pretraining stage. We evaluate BraVista on four datasets spanning sleep staging, emotion recognition, cognitive workload classification, and abnormal EEG detection, showing strong performance across these tasks. Further analyses show that the choice of EEG-to-image representation is critical to performance. Moreover, through controlled perturbations of the EEG signal, we observe a gradual performance degradation under increasing noise, suggesting that the model relies on EEG-relevant information rather than superficial visual patterns. Together, these findings establish structured visual representations as an effective and scalable interface between neural signals and general-domain foundation models for unified multi-task EEG decoding.",
+      "authors": [
+        "Parastoo Azizeddin",
+        "Omid Sharafi",
+        "Maryam M. Shanechi"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "published": "2026-10-07T03:13:03+00:00",
+      "link": "https://arxiv.org/pdf/2610.09355v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multimodal LLM for unified multi-task EEG decoding across tasks, subjects, and recording conditions",
+      "llm_evidence_cn": "多模态大语言模型用于跨任务、跨被试和跨记录条件的统一EEG解码",
+      "llm_evidence": "多模态大语言模型用于跨任务、跨被试和跨记录条件的统一EEG解码",
+      "canonical_evidence": "多模态大语言模型用于跨任务、跨被试和跨记录条件的统一EEG解码",
+      "llm_tldr_en": "BraVista encodes multichannel EEG as structured images and uses instruction-conditioned vision-language models to enable multi-task EEG decoding across datasets, improving generalization.",
+      "llm_tldr_cn": "针对EEG解码在任务、被试和记录条件间泛化的挑战，提出BraVista框架，将多通道EEG编码为结构化图像，并通过指令条件的视觉-语言模型实现跨数据集多任务学习。实验显示该方法能提升多任务解码性能，为脑信号与基础模型的接口提供了新思路。",
+      "llm_tldr": "针对EEG解码在任务、被试和记录条件间泛化的挑战，提出BraVista框架，将多通道EEG编码为结构化图像，并通过指令条件的视觉-语言模型实现跨数据集多任务学习。实验显示该方法能提升多任务解码性能，为脑信号与基础模型的接口提供了新思路。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "neural decoding models for brain-computer interfaces",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

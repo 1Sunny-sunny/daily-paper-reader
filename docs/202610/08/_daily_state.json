@@ -1,0 +1,89 @@
+{
+  "date": "20261008",
+  "date_label": "",
+  "generated_at": "2026-10-08 23:57:50 UTC",
+  "recommend_exists": true,
+  "run_count": 1,
+  "papers": [
+    {
+      "paper_id": "2610.07713v2",
+      "route": "202610/08/2610.07713v2-neuromotor-hierarchy-network-physiological-inductive-biases-for-robust-generalization-in-semg-decoding",
+      "title": "Neuromotor Hierarchy Network: Physiological Inductive Biases for Robust Generalization in sEMG Decoding",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "利用生理先验解决表面肌电解码中跨会话和跨用户变异性",
+      "first_seen_at": "2026-10-08 23:57:50 UTC",
+      "updated_at": "2026-10-08 23:57:50 UTC"
+    },
+    {
+      "paper_id": "2610.00397v1",
+      "route": "202610/08/2610.00397v1-neurotoken-joint-source-and-directional-aad-with-envelope-decoding-via-conditional-flow-matching",
+      "title": "NEUROTOKEN: Joint Source and Directional AAD with Envelope Decoding via Conditional Flow Matching",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "基于EEG的听觉注意力解码用于脑机接口",
+      "first_seen_at": "2026-10-08 23:57:50 UTC",
+      "updated_at": "2026-10-08 23:57:50 UTC"
+    },
+    {
+      "paper_id": "2610.09352v1",
+      "route": "202610/08/2610.09352v1-many-brains-one-geometry-a-shared-visual-semantic-space-for-cross-dataset-fmri-decoding",
+      "title": "Many Brains, One Geometry: A Shared Visual-Semantic Space for Cross-Dataset fMRI Decoding",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "共享CLIP监督的解码框架对齐跨被试和跨数据集的大脑活动",
+      "first_seen_at": "2026-10-08 23:57:50 UTC",
+      "updated_at": "2026-10-08 23:57:50 UTC"
+    },
+    {
+      "paper_id": "2610.09355v1",
+      "route": "202610/08/2610.09355v1-multimodal-llms-can-learn-to-read-brain-signals-a-vision--language-model-for-unified-multi-task-eeg-decoding",
+      "title": "Multimodal LLMs Can Learn to Read Brain Signals: A Vision--Language Model for Unified Multi-Task EEG Decoding",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "多模态大语言模型用于跨任务、跨被试和跨记录条件的统一EEG解码",
+      "first_seen_at": "2026-10-08 23:57:50 UTC",
+      "updated_at": "2026-10-08 23:57:50 UTC"
+    },
+    {
+      "paper_id": "2610.07229v1",
+      "route": "202610/08/2610.07229v1-conditional-flow-matching-for-transport-between-markov-processes",
+      "title": "Conditional Flow Matching for Transport Between Markov Processes",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "时间序列领域适应中的马尔可夫过程轨迹传输",
+      "first_seen_at": "2026-10-08 23:57:50 UTC",
+      "updated_at": "2026-10-08 23:57:50 UTC"
+    }
+  ]
+}

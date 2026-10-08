@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-08T07:57:09.397828+00:00",
-  "updated_date": "20260929-20261008",
+  "generated_at": "2026-10-08T23:54:52.832721+00:00",
+  "updated_date": "20261008",
   "carryover_days": 9,
   "tag_states": {
     "BCI-DA": {
-      "updated_date": "20260929-20261008",
+      "updated_date": "20261008",
       "carryover_days": 9,
       "items": []
     }
