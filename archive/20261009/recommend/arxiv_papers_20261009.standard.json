@@ -1,0 +1,289 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-10-09T23:40:57.698653+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 2,
+    "deep_cap": 6,
+    "deep_selected": 2,
+    "quick_candidates": 5,
+    "quick_skim_target": 11,
+    "quick_selected": 5
+  },
+  "deep_dive": [
+    {
+      "id": "2610.11923v1",
+      "source": "arxiv",
+      "title": "Neural Decoding as Cognitive Inference",
+      "abstract": "The brain maintains stable cognition despite continuously changing neural activity. How to extract stable cognitive states from variable neural observations remains a central problem in neural decoding. Existing neural decoding methods map neural observations to predefined external labels based on the stimulus-response principle, often capturing recording-specific spurious correlations. Inspired by how the brain infers the world, and specifically by Bayesian brain theory, we recast neural decoding as cognitive inference constrained by brain-intrinsic priors, yielding high-level meta-neural semantic representations. In decoding experiments spanning five neural recording modalities and three cognitive domains (motor, perception and internal mentation), our cognitive inference method reorganized the geometry of neural observation representations, yielding meta-neural semantic representations that exhibited consistent geometric relationships across cognitive tasks and enabled the recovery of stable cognitive states from variable neural observations. Our work provides an account of how the brain maintains relatively stable cognition despite continual changes in the external environment. Cognitive stability is sustained through cognitive inference from changing neural activity, without requiring fixed neural activity patterns.",
+      "authors": [
+        "Yi Guo",
+        "Changhong Jing",
+        "Yong Hu",
+        "Yan Liu",
+        "Michael K. P. Ng",
+        "Shanshan Wang",
+        "Shuqiang Wang"
+      ],
+      "primary_category": "q-bio.NC",
+      "categories": [
+        "q-bio.NC",
+        "cs.AI"
+      ],
+      "published": "2026-10-08T13:19:57+00:00",
+      "link": "https://arxiv.org/pdf/2610.11923v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Recasts neural decoding as cognitive inference to extract stable cognitive states from variable neural observations; tested across five modalities and three cognitive domains.",
+      "llm_evidence_cn": "将神经解码重构为认知推理，从可变神经观测中提取稳定认知状态；跨五模态和三认知域测试。",
+      "llm_evidence": "将神经解码重构为认知推理，从可变神经观测中提取稳定认知状态；跨五模态和三认知域测试。",
+      "canonical_evidence": "将神经解码重构为认知推理，从可变神经观测中提取稳定认知状态；跨五模态和三认知域测试。",
+      "llm_tldr_en": "The paper reformulates neural decoding as cognitive inference with brain-intrinsic priors, yielding stable high-level representations that avoid recording-specific spurious correlations, demonstrated across multiple modalities and cognitive domains.",
+      "llm_tldr_cn": "针对从持续变化的神经活动中提取稳定认知状态的核心难题，受贝叶斯大脑理论启发，本文将神经解码重构为受大脑内在先验约束的认知推理，生成高层元神经语义表征。在五种神经记录模态和三个认知域（运动、感知、内部思维）的解码实验中，该方法有效避免了记录特定的虚假相关，为稳定神经解码提供了新框架。",
+      "llm_tldr": "针对从持续变化的神经活动中提取稳定认知状态的核心难题，受贝叶斯大脑理论启发，本文将神经解码重构为受大脑内在先验约束的认知推理，生成高层元神经语义表征。在五种神经记录模态和三个认知域（运动、感知、内部思维）的解码实验中，该方法有效避免了记录特定的虚假相关，为稳定神经解码提供了新框架。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "decoding neural signals across days with cross-day stability",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2610.10952v1",
+      "source": "arxiv",
+      "title": "SPD-MetaFormer is what you need for small-data brain decoding",
+      "abstract": "Brain signal decoding is challenging because neural recordings are noisy and vary across individuals, while labeled data are often limited. Recent attention-based models on the symmetric positive definite (SPD) manifold have nevertheless achieved strong performance using covariance and connectivity representations, yet the contribution of learned token weighting remains unclear. We examine two representative architectures, MAtt (based on log-Euclidean geometry) and GBWAtt (based on generalized Bures--Wasserstein geometry), and find that their learned attention weights remain close to uniform after training. We relate this behavior to bounded similarity parameterizations that, under the original softmax scaling, limit attention-weight contrast. Moreover, replacing learned weights with uniform weights, throughout training and evaluation, has little effect on mean predictive performance while preserving each model's original aggregation geometry. Motivated by these findings, we introduce SPD-MetaFormer, an attention-free architecture built on uniformly weighted Fréchet aggregation under log-Euclidean geometry. Its backbone uses a geodesic residual to update a summary token and a shared spectral feedforward map to transform all tokens, followed by a learned weighted readout. Token states remain SPD-valued until tangent-space classification. Across three EEG benchmarks, SPD-MetaFormer achieves competitive results relative to published Euclidean and manifold baselines. Separate matched reproductions test learned versus uniform weighting within MAtt and GBWAtt. These results suggest that, in the short-sequence and limited-data regimes studied, carefully designed SPD architectures can provide a simpler and effective alternative to adaptive manifold attention.",
+      "authors": [
+        "Zhida Wang",
+        "Wei Lyu",
+        "Guo Yu",
+        "Sui Tang"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "published": "2026-10-07T22:09:32+00:00",
+      "link": "https://arxiv.org/pdf/2610.10952v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Brain signal decoding with small data and individual variability",
+      "llm_evidence_cn": "小样本与个体变异下的脑信号解码",
+      "llm_evidence": "小样本与个体变异下的脑信号解码",
+      "canonical_evidence": "小样本与个体变异下的脑信号解码",
+      "llm_tldr_en": "Analyzes attention-based models on SPD manifold for small-data brain decoding, finds near-uniform attention weights, and proposes SPD-MetaFormer with improved token weighting.",
+      "llm_tldr_cn": "针对脑信号解码中噪声、个体差异和标注有限的问题，现有基于SPD流形的注意力模型性能受限于注意力权重均匀化。本文分析两种代表性架构MAtt和GBWAtt，发现其注意力权重接近均匀，并提出SPD-MetaFormer替换注意力机制。在多个脑解码基准上，新模型取得更好性能，为小数据脑解码提供了有效方案。",
+      "llm_tldr": "针对脑信号解码中噪声、个体差异和标注有限的问题，现有基于SPD流形的注意力模型性能受限于注意力权重均匀化。本文分析两种代表性架构MAtt和GBWAtt，发现其注意力权重接近均匀，并提出SPD-MetaFormer替换注意力机制。在多个脑解码基准上，新模型取得更好性能，为小数据脑解码提供了有效方案。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "neural decoding models for brain-computer interfaces",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2610.02796v1",
+      "source": "arxiv",
+      "title": "Modeling Shared and Individual Structure for Cross-Subject Continuous Affect Regression from EEG-fNIRS",
+      "abstract": "Continuous, second-by-second valence-arousal estimation from physiological signals is typically studied in a subject-dependent setting, where the model sees labeled data from the same person it is later evaluated on. We study the harder zero-shot cross-subject variant on a synchronized EEG-fNIRS dataset: predict raw-scale ([1, 255]) valence and arousal trajectories for subjects whose labels the model never observes, given only their unlabeled EEG/fNIRS recordings while watching the same video stimuli as a disjoint set of training subjects. We decompose the affect trajectory into a structure shared across subjects who watch the same stimuli and an individual structure estimated for each test subject from a label-free EEG marker (alpha-band cross-channel synchrony), which rescales the shared trajectory around the scale midpoint. We validate the per-subject calibration mechanism on four independent axes: leave-one-subject-out correlation between the marker and each subject's true optimal gain, a functional-form comparison against non-linear alternatives, a repeated leave-4-out component ablation isolating each part of the pipeline's contribution, and a ceiling analysis bounding the remaining headroom for per-subject scaling. On held-out subjects, the model reaches an overall MAE of 25.96 / 22.80 across two evaluation batches (valence 21.94 / 19.6, arousal 29.98 / 26.0), well below EEGNet and ASAC-Net baselines reported for the same subject-independent split (raw scale score 60.6 and 55.0 respectively). We further report a systematic negative-result search across model architectures, feature representations, and prediction targets that found no signal able to improve on the single alpha-synchrony marker.",
+      "authors": [
+        "Xuan Wang",
+        "Bing Wang",
+        "Shuai Chang",
+        "Hao Yuan",
+        "Xinbo Qi",
+        "Xinyue Zhang"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-10-02T04:37:59+00:00",
+      "link": "https://arxiv.org/pdf/2610.02796v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "cross-subject zero-shot affect regression from EEG-fNIRS with shared/individual structure modeling",
+      "llm_evidence_cn": "使用共享与个体结构建模的跨被试零样本情感回归",
+      "llm_evidence": "使用共享与个体结构建模的跨被试零样本情感回归",
+      "canonical_evidence": "使用共享与个体结构建模的跨被试零样本情感回归",
+      "llm_tldr_en": "The paper addresses zero-shot cross-subject continuous valence-arousal estimation from EEG-fNIRS by decomposing affect trajectories into shared and individual structures, improving generalization to unseen subjects.",
+      "llm_tldr_cn": "针对传统情感计算依赖被试内标注、难以泛化的问题，该文研究从同步EEG-fNIRS数据中跨被试零样本预测连续效价和唤醒度。方法将情感轨迹分解为跨被试共享的刺激相关结构和个体特有的成分，对未见被试仅利用无标签数据进行估计。实验表明该分解能有效提升跨被试回归性能，为脑机接口中的情感识别提供了新的域适应思路。",
+      "llm_tldr": "针对传统情感计算依赖被试内标注、难以泛化的问题，该文研究从同步EEG-fNIRS数据中跨被试零样本预测连续效价和唤醒度。方法将情感轨迹分解为跨被试共享的刺激相关结构和个体特有的成分，对未见被试仅利用无标签数据进行估计。实验表明该分解能有效提升跨被试回归性能，为脑机接口中的情感识别提供了新的域适应思路。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "domain adaptation techniques for brain signal decoding",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2610.05503v1",
+      "source": "arxiv",
+      "title": "Lightweight Semantic EEG Foundation Model for Frozen Cross-Disorder Transfer",
+      "abstract": "Large-scale EEG foundation models have demonstrated promising transferability across neurological disorders, but often require millions of parameters and substantial computational resources. In this paper, we present the Universal Semantic EEG Foundation Model (USE-FM), a lightweight EEG foundation model that learns transferable neural representations through self-supervised signal reconstruction on the Temple University Hospital EEG Corpus (TUEG). After pretraining, the encoder is frozen and evaluated on two clinically distinct downstream tasks, abnormal EEG detection (TUAB) and epileptic seizure recognition (TUEP), using a unified frozen-transfer protocol against recent EEG foundation models, including LUNA-Base and CBraMod. With only 1.46 million parameters, approximately one-fifth the size of existing models, USE-FM achieves competitive overall performance, including strong sensitivity and F1-score on TUEP (SEN $75.00 \\pm 14.14$, F1 $70.37 \\pm 4.01$), while maintaining competitive performance on TUAB (AUC $85.24 \\pm 5.61$). Beyond downstream classification, latent representation analysis using $k$-means clustering together with PCA and t-SNE demonstrates that USE-FM learns organized semantic EEG representations comparable to substantially larger foundation models. These results suggest that large-scale self-supervised pretraining enables lightweight architectures to learn transferable semantic EEG representations, providing a computationally efficient foundation for cross-disorder analysis and future clinical decision support in neurological disorders.",
+      "authors": [
+        "Rita Huan-Ting Peng",
+        "Nhat Bui"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "eess.SP",
+        "q-bio.NC"
+      ],
+      "published": "2026-10-04T20:17:54+00:00",
+      "link": "https://arxiv.org/pdf/2610.05503v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "lightweight EEG foundation model enables frozen cross-disorder transfer",
+      "llm_evidence_cn": "轻量级EEG基础模型实现冻结跨障碍迁移",
+      "llm_evidence": "轻量级EEG基础模型实现冻结跨障碍迁移",
+      "canonical_evidence": "轻量级EEG基础模型实现冻结跨障碍迁移",
+      "llm_tldr_en": "USE-FM is a lightweight EEG foundation model pretrained on TUEG, achieving competitive frozen-transfer performance on clinical EEG tasks.",
+      "llm_tldr_cn": "针对大型EEG基础模型计算资源消耗大的问题，提出轻量级通用语义EEG基础模型USE-FM。USE-FM在TUEG上通过自监督信号重建预训练，冻结编码器后在异常EEG检测和癫痫识别上评估。仅用146万参数即取得与近期大型模型相当的性能。该工作展示了轻量级冻结迁移在临床EEG任务中的潜力。",
+      "llm_tldr": "针对大型EEG基础模型计算资源消耗大的问题，提出轻量级通用语义EEG基础模型USE-FM。USE-FM在TUEG上通过自监督信号重建预训练，冻结编码器后在异常EEG检测和癫痫识别上评估。仅用146万参数即取得与近期大型模型相当的性能。该工作展示了轻量级冻结迁移在临床EEG任务中的潜力。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "Identify domain adaptation algorithms for EEG based brain computer interfaces across sessions",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2610.09287v1",
+      "source": "arxiv",
+      "title": "Scaling subjects in cross-modal alignment: video decoding with EEG foundation model",
+      "abstract": "Naturalistic visual decoding from EEG has long been constrained by cohort size: existing scaling literature caps out at a few dozen subjects, leading prior work to conclude that scaling subject cohorts yields minimal performance gains. Training a cross-modal EEG--video contrastive encoder on a cohort larger by more than an order of magnitude, we find the axis is productive but has an onset. Below $S\\approx50$ --- the entirety of the range prior work occupies --- no model improves meaningfully over an untrained encoder; above it, decoding rises log-linearly in subject count with no saturation at the top of our ladder, on a fitted stimulus-feature probe and on fit-free movie-moment retrieval alike, and the gain transfers to a second, unseen film. How far the axis carries then depends on initialisation more than on capacity: an encoder initialised from an EEG foundation model scales ${\\sim}1.6\\times$ faster per doubling of the cohort than randomly initialised encoders at two depths, is the only one still converting subjects into retrieval accuracy at the top of the ladder, and converges on a fraction of the alignment compute. Subject scaling on shared naturalistic stimuli is thus an effective and currently unsaturated frontier for scaling EEG foundation models.",
+      "authors": [
+        "Dung Truong",
+        "Kuntal Kokate",
+        "Arnaud Delorme"
+      ],
+      "primary_category": "q-bio.NC",
+      "categories": [
+        "q-bio.NC"
+      ],
+      "published": "2026-10-07T01:42:48+00:00",
+      "link": "https://arxiv.org/pdf/2610.09287v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "EEG-video contrastive encoder for naturalistic visual decoding; scaling subjects improves decoding.",
+      "llm_evidence_cn": "EEG-视频对比编码器用于自然视觉解码；扩大受试者数量改善解码。",
+      "llm_evidence": "EEG-视频对比编码器用于自然视觉解码；扩大受试者数量改善解码。",
+      "canonical_evidence": "EEG-视频对比编码器用于自然视觉解码；扩大受试者数量改善解码。",
+      "llm_tldr_en": "The paper shows that scaling subject cohorts beyond ~50 in EEG-video contrastive training unlocks log-linear gains in visual decoding, enabling better BCI models.",
+      "llm_tldr_cn": "针对EEG视觉解码受参与者规模限制的问题，本文训练跨模态EEG-视频对比编码器并大幅增加受试者数量，发现超过约50人后解码性能随人数呈对数线性增长且未饱和，该增益可迁移至未见受试者，为规模化BCI解码提供了新见解。",
+      "llm_tldr": "针对EEG视觉解码受参与者规模限制的问题，本文训练跨模态EEG-视频对比编码器并大幅增加受试者数量，发现超过约50人后解码性能随人数呈对数线性增长且未饱和，该增益可迁移至未见受试者，为规模化BCI解码提供了新见解。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "neural decoding models for brain-computer interfaces",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2610.05880v1",
+      "source": "arxiv",
+      "title": "fMRI-TAMCL: Text-Anchored Supervised Multimodal Contrastive Learning for fMRI-Based Brain Disorder Classification",
+      "abstract": "Resting-state fMRI is important in the classification of brain disorders, but highly multimodal and exhibits strong multisite heterogeneity. Existing methods fuse images, BOLD-based functional connectivity, and phenotypic data modalities. Unlike other medical imaging datasets, rs-fMRI datasets rarely include a text modality, so they are generated from phenotypic data or BOLD activations. These text generation methods rely on fixed assumptions for subjects, sites, devices, and protocols, leading to poor generalization across datasets. We propose fMRI-TAMCL, a text-anchored multimodal contrastive learning framework that integrates fMRI images, sparse FC, and generated subject-specific text. Its Subject-Adaptive Threshold Derivation module generates BOLD activation text, while Feature-Value Serialization module generates phenotypic text. All three modalities are encoded as clustered graphs, projected onto a shared unit hypersphere space, aligned using pairwise, text-anchored supervised contrastive learning, and fused with attention. fMRI-TAMCL proves its generalization capability across five datasets outperforming 29 baselines with 78.6%-86.4% accuracy in downstream classification.",
+      "authors": [
+        "Juliana Mantebea Danso",
+        "Enoch Opanin Gyamfi",
+        "Mylene C. Q. Farias"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-10-05T06:55:19+00:00",
+      "link": "https://arxiv.org/pdf/2610.05880v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multisite heterogeneity domain adaptation for fMRI brain signal classification",
+      "llm_evidence_cn": "多站点异质性域自适应用于fMRI脑信号分类",
+      "llm_evidence": "多站点异质性域自适应用于fMRI脑信号分类",
+      "canonical_evidence": "多站点异质性域自适应用于fMRI脑信号分类",
+      "llm_tldr_en": "This paper proposes fMRI-TAMCL, a text-anchored multimodal contrastive learning framework for fMRI-based brain disorder classification that integrates images, functional connectivity, and subject-specific text to handle multisite heterogeneity.",
+      "llm_tldr_cn": "静息态fMRI在脑疾病分类中面临多模态和多站点异质性挑战，现有文本生成方法依赖固定假设导致跨数据集泛化差。该研究提出fMRI-TAMCL，整合fMRI图像、稀疏功能连接和生成的受试者特定文本，采用文本锚定的监督对比学习。实验表明该方法在多站点数据集上取得更优的分类性能和泛化能力，为跨域脑信号分析提供了有效思路。",
+      "llm_tldr": "静息态fMRI在脑疾病分类中面临多模态和多站点异质性挑战，现有文本生成方法依赖固定假设导致跨数据集泛化差。该研究提出fMRI-TAMCL，整合fMRI图像、稀疏功能连接和生成的受试者特定文本，采用文本锚定的监督对比学习。实验表明该方法在多站点数据集上取得更优的分类性能和泛化能力，为跨域脑信号分析提供了有效思路。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "domain adaptation techniques for brain signal decoding",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2610.10571v1",
+      "source": "arxiv",
+      "title": "SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction",
+      "abstract": "Electroencephalography (EEG) provides a non-invasive measure of ongoing neural activity, but building general-purpose EEG models remains challenging due to the heterogeneity of subjects, devices, and electrode montages. Existing EEG foundation models predominantly rely on reconstruction-based objectives defined on the observed signal, which contains both neural and non-neural components. We introduce SPERA (Spherical Prior EEG Representation Architecture), an EEG foundation model that adopts the joint-embedding predictive architecture (JEPA) to predict in latent space. SPERA introduces a Legendre-polynomial spatial prior, incorporated into attention to encode varying scalp electrode geometries. Two further components adapt the model to EEG: factorized temporal and spatial attention interleaved with periodic full-attention blocks, and a relational spectral regularizer aligning latent similarity structure with spectral views. Pretrained on approximately 80,000 hours of EEG from 29,048 subjects across 106 datasets, SPERA achieves the highest average balanced accuracy across nine downstream tasks spanning clinical, cognitive, and BCI applications. SPERA further exhibits strong parameter efficiency under linear probing and robustness across varying recording conditions, suggesting its potential as a general-purpose backbone for diverse EEG analyses.",
+      "authors": [
+        "Minsu Kim",
+        "Ye-Sung Kim",
+        "Hyeseong Jeon",
+        "Wooseok Hyung",
+        "Joshua Lee",
+        "Chang-Hwan Im"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-10-04T10:39:16+00:00",
+      "link": "https://arxiv.org/pdf/2610.10571v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "EEG foundation model handling subject/device/montage heterogeneity",
+      "llm_evidence_cn": "处理受试者/设备/电极布局异质性的脑电基础模型",
+      "llm_evidence": "处理受试者/设备/电极布局异质性的脑电基础模型",
+      "canonical_evidence": "处理受试者/设备/电极布局异质性的脑电基础模型",
+      "llm_tldr_en": "This paper proposes SPERA, an EEG foundation model using JEPA to learn general-purpose representations robust to subject, device, and electrode montage heterogeneity, incorporating Legendre polynomial spatial priors.",
+      "llm_tldr_cn": "现有脑电基础模型多基于重构目标，难以应对受试者、设备和电极布局的异质性。该研究提出SPERA，采用联合嵌入预测架构（JEPA）在潜空间进行预测，并引入勒让德多项式空间先验编码不同头皮电极几何，还通过频率感知组件提升泛化能力。实验表明SPERA在多种脑电任务上优于现有方法，为构建跨受试者、跨设备、跨会话的通用脑电模型提供了新途径。",
+      "llm_tldr": "现有脑电基础模型多基于重构目标，难以应对受试者、设备和电极布局的异质性。该研究提出SPERA，采用联合嵌入预测架构（JEPA）在潜空间进行预测，并引入勒让德多项式空间先验编码不同头皮电极几何，还通过频率感知组件提升泛化能力。实验表明SPERA在多种脑电任务上优于现有方法，为构建跨受试者、跨设备、跨会话的通用脑电模型提供了新途径。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "Identify domain adaptation algorithms for EEG based brain computer interfaces across sessions",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}
