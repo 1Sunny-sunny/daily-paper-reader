@@ -48,17 +48,17 @@
 <section class="dpr-home-dashboard-card dpr-home-report-card">
   <div class="dpr-home-dashboard-header">
     <div>
-      <span class="dpr-home-dashboard-kicker">2026-10-09</span>
+      <span class="dpr-home-dashboard-kicker">2026-10-10</span>
       <h3 class="dpr-home-dashboard-title">今日汇总</h3>
     </div>
-    <strong class="dpr-home-dashboard-count">共 7 篇</strong>
+    <strong class="dpr-home-dashboard-count">共 0 篇</strong>
   </div>
   <dl class="dpr-home-dashboard-stats">
     <div class="dpr-home-dashboard-stat"><dt>累计更新</dt><dd>1 次</dd></div>
-    <div class="dpr-home-dashboard-stat"><dt>精读</dt><dd>2</dd></div>
-    <div class="dpr-home-dashboard-stat"><dt>速读</dt><dd>5</dd></div>
+    <div class="dpr-home-dashboard-stat"><dt>精读</dt><dd>0</dd></div>
+    <div class="dpr-home-dashboard-stat"><dt>速读</dt><dd>0</dd></div>
   </dl>
-  <p class="dpr-home-dashboard-body">最近更新：2026-10-09 23:42:55 UTC<br>状态：成功</p>
+  <p class="dpr-home-dashboard-body">最近更新：2026-10-10 22:20:49 UTC<br>状态：成功</p>
 </section>
 <section class="dpr-home-dashboard-card dpr-home-brief-card">
   <div class="dpr-home-dashboard-header">
@@ -69,10 +69,7 @@
     <strong class="dpr-home-dashboard-count">AI</strong>
   </div>
   <div class="dpr-home-dashboard-body">
-<p>今日共生成 7 篇推荐（精读 2 篇，速读 5 篇）</p>
-<p>精读：《Neural Decoding as Cognitive Inference》（9.0/10）, 《SPD-MetaFormer is what you need for small-data brain decoding》（8.0/10）</p>
-<p>速读：《Modeling Shared and Individual Structure for Cross-Subject Continuous Affect Regression from EEG-fNIRS》（7.0/10）, 《Scaling subjects in cross-modal alignment: video decoding with EEG foundation model》（7.0/10）, 《SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction》（7.0/10）</p>
-<p>这些结果覆盖了当下较热的方向，建议先看精读区论文的关键问题与方法。</p>
+<p>今日无新推荐，系统未产出可展示论文。</p>
   </div>
 </section>
 <section class="dpr-home-dashboard-card dpr-home-deep-card">
@@ -81,12 +78,12 @@
       <span class="dpr-home-dashboard-kicker">今日累计</span>
       <h3 class="dpr-home-dashboard-title">精读推荐</h3>
     </div>
-    <strong class="dpr-home-dashboard-count">2 篇</strong>
+    <strong class="dpr-home-dashboard-count">0 篇</strong>
   </div>
   <div class="dpr-home-dashboard-body">
-<ul class="dpr-home-dashboard-paper-list"><li><span class="dpr-home-dashboard-paper-title" title="Neural Decoding as Cognitive Inference">Neural Decoding as Cognitive Inference</span></li><li><span class="dpr-home-dashboard-paper-title" title="SPD-MetaFormer is what you need for small-data brain decoding">SPD-MetaFormer is what you need for small-data brain decoding</span></li></ul>
+<p class="dpr-home-dashboard-empty">今日暂无推荐。</p>
   </div>
-  <div class="dpr-home-dashboard-tags"><span class="dpr-home-dashboard-tag">bci-da <strong>2</strong></span></div>
+
 </section>
 <section class="dpr-home-dashboard-card dpr-home-skim-card">
   <div class="dpr-home-dashboard-header">
@@ -94,12 +91,12 @@
       <span class="dpr-home-dashboard-kicker">今日累计</span>
       <h3 class="dpr-home-dashboard-title">速读推荐</h3>
     </div>
-    <strong class="dpr-home-dashboard-count">5 篇</strong>
+    <strong class="dpr-home-dashboard-count">0 篇</strong>
   </div>
   <div class="dpr-home-dashboard-body">
-<ul class="dpr-home-dashboard-paper-list"><li><span class="dpr-home-dashboard-paper-title" title="Modeling Shared and Individual Structure for Cross-Subject Continuous Affect Regression from EEG-fNIRS">Modeling Shared and Individual Structure for Cross-Subject Continuous Affect Regression from EEG-fNIRS</span></li><li><span class="dpr-home-dashboard-paper-title" title="Scaling subjects in cross-modal alignment: video decoding with EEG foundation model">Scaling subjects in cross-modal alignment: video decoding with EEG foundation model</span></li><li><span class="dpr-home-dashboard-paper-title" title="SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction">SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction</span></li></ul>
+<p class="dpr-home-dashboard-empty">今日暂无推荐。</p>
   </div>
-  <div class="dpr-home-dashboard-tags"><span class="dpr-home-dashboard-tag">bci-da <strong>5</strong></span></div>
+
 </section>
 </div>
 
