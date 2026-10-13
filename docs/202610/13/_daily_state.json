@@ -1,41 +1,41 @@
 {
   "date": "20261013",
   "date_label": "",
-  "generated_at": "2026-10-13 01:28:36 UTC",
+  "generated_at": "2026-10-13 23:24:55 UTC",
   "recommend_exists": true,
-  "run_count": 1,
+  "run_count": 2,
   "papers": [
-    {
-      "paper_id": "2610.12921v1",
-      "route": "202610/13/2610.12921v1-teaching-neural-decoders-with-language",
-      "title": "Teaching neural decoders with language",
-      "section": "quick",
-      "tags": [
-        {
-          "kind": "query",
-          "label": "bci-da"
-        }
-      ],
-      "score": 7.0,
-      "evidence": "语言监督支持脑信号解码的会话自适应",
-      "first_seen_at": "2026-10-13 01:28:36 UTC",
-      "updated_at": "2026-10-13 01:28:36 UTC"
-    },
     {
       "paper_id": "2610.13763v1",
       "route": "202610/13/2610.13763v1-neurons-a-unified-visual-stream-framework-for-image-and-video-reconstruction-from-fmri-with-neural-to-visual-interpretability",
       "title": "Neurons++: A Unified Visual-Stream Framework for Image and Video Reconstruction from fMRI with Neural-to-Visual Interpretability",
-      "section": "quick",
+      "section": "deep",
       "tags": [
         {
           "kind": "query",
           "label": "bci-da"
         }
       ],
-      "score": 6.0,
+      "score": 9.0,
       "evidence": "用于脑机接口的fMRI视觉解码",
       "first_seen_at": "2026-10-13 01:28:36 UTC",
-      "updated_at": "2026-10-13 01:28:36 UTC"
+      "updated_at": "2026-10-13 23:24:55 UTC"
+    },
+    {
+      "paper_id": "2610.12921v1",
+      "route": "202610/13/2610.12921v1-teaching-neural-decoders-with-language",
+      "title": "Teaching neural decoders with language",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 8.0,
+      "evidence": "语言监督支持脑信号解码的会话自适应",
+      "first_seen_at": "2026-10-13 01:28:36 UTC",
+      "updated_at": "2026-10-13 23:24:55 UTC"
     },
     {
       "paper_id": "2610.13894v1",
@@ -48,10 +48,58 @@
           "label": "bci-da"
         }
       ],
-      "score": 6.0,
+      "score": 7.0,
       "evidence": "在公开基准上验证标准脑机接口解码流水线的研究",
       "first_seen_at": "2026-10-13 01:28:36 UTC",
-      "updated_at": "2026-10-13 01:28:36 UTC"
+      "updated_at": "2026-10-13 23:24:55 UTC"
+    },
+    {
+      "paper_id": "2610.07484v1",
+      "route": "202610/13/2610.07484v1-specbram-what-should-an-eeg-foundation-model-predict-masked-band-power-prediction-versus-waveform-reconstruction",
+      "title": "SpecBraM: What Should an EEG Foundation Model Predict? Masked Band-Power Prediction versus Waveform Reconstruction",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "自监督EEG基础模型用于解码",
+      "first_seen_at": "2026-10-13 23:24:55 UTC",
+      "updated_at": "2026-10-13 23:24:55 UTC"
+    },
+    {
+      "paper_id": "2610.07824v1",
+      "route": "202610/13/2610.07824v1-candle-cortical-null-space-decomposition-for-noninvasive-brain-source-imaging",
+      "title": "CANDLE: Cortical Null-Space Decomposition for Noninvasive Brain Source Imaging",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "基于学习的EEG源成像，具有被试特定泛化能力",
+      "first_seen_at": "2026-10-13 23:24:55 UTC",
+      "updated_at": "2026-10-13 23:24:55 UTC"
+    },
+    {
+      "paper_id": "2610.13120v1",
+      "route": "202610/13/2610.13120v1-replaying-the-movie-in-your-mind-decoding-dynamic-visual-perception-and-recall-from-eeg",
+      "title": "Replaying the Movie in Your Mind Decoding Dynamic Visual Perception and Recall from EEG",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "从EEG解码动态视觉感知与回忆，属于BCI神经解码模型",
+      "first_seen_at": "2026-10-13 23:24:55 UTC",
+      "updated_at": "2026-10-13 23:24:55 UTC"
     }
   ]
 }

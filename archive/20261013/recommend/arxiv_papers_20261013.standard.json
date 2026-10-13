@@ -1,58 +1,17 @@
 {
   "mode": "standard",
-  "generated_at": "2026-10-13T01:27:41.987131+00:00",
+  "generated_at": "2026-10-13T23:23:29.635747+00:00",
   "stats": {
     "mode": "standard",
     "tag_count": 1,
-    "deep_divecandidates": 0,
+    "deep_divecandidates": 2,
     "deep_cap": 6,
-    "deep_selected": 0,
-    "quick_candidates": 3,
+    "deep_selected": 2,
+    "quick_candidates": 4,
     "quick_skim_target": 11,
-    "quick_selected": 3
+    "quick_selected": 4
   },
-  "deep_dive": [],
-  "quick_skim": [
-    {
-      "id": "2610.12921v1",
-      "source": "arxiv",
-      "title": "Teaching neural decoders with language",
-      "abstract": "Brain-computer interfaces decode neural activity, yet class-label supervision (CLS) leaves relationships among classes implicit. We propose Language as Supervision (LaS), which aligns neural features with natural-language class descriptions through learned projections and predicts classes using candidate text prototypes. We evaluate seven encoder architectures with independently trained models for visual, motor, and speech decoding from scalp and intracranial recordings. LaS improves speech-decoding accuracy by up to 17.15~pp over matched CLS baselines. Its representations support candidate-set reuse and label-supervised subject and session adaptation, while LaS enables conditional unseen-frequency decoding in steady-state visual evoked potential (SSVEP) responses. Correct class-description correspondence supports this generalization, and dual-sided attribution visualization shows neural and textual contributions to the same class-matching score. These findings suggest that text descriptions can serve as general-purpose references for learning and interpretation in neural decoding.",
-      "authors": [
-        "Xuan Wen",
-        "Yonghao Song",
-        "Yuhong Zhang",
-        "Guoliang Li",
-        "Tzyy-Ping Jung",
-        "Xiaorong Gao"
-      ],
-      "primary_category": "cs.AI",
-      "categories": [
-        "cs.AI"
-      ],
-      "published": "2026-10-09T03:12:42+00:00",
-      "link": "https://arxiv.org/pdf/2610.12921v1",
-      "tags": [
-        "keyword:BCI-DA",
-        "query:BCI-DA"
-      ],
-      "llm_score": 7.0,
-      "llm_evidence_en": "language supervision supports session adaptation for brain decoding",
-      "llm_evidence_cn": "语言监督支持脑信号解码的会话自适应",
-      "llm_evidence": "语言监督支持脑信号解码的会话自适应",
-      "canonical_evidence": "语言监督支持脑信号解码的会话自适应",
-      "llm_tldr_en": "The paper proposes using natural language class descriptions as supervision to align neural features, improving speech decoding and enabling label-supervised subject and session adaptation in brain-computer interfaces.",
-      "llm_tldr_cn": "传统类别标签监督未能显式建模类别间关系，该文提出语言作为监督（LaS），将神经特征与自然语言类别描述对齐，并利用文本原型进行分类。在视觉、运动和语音解码任务上评估，语音解码准确率最高提升17.15个百分点。该表示支持候选集复用和基于标签的受试者与会话自适应，为跨会话脑机接口解码提供了新途径。",
-      "llm_tldr": "传统类别标签监督未能显式建模类别间关系，该文提出语言作为监督（LaS），将神经特征与自然语言类别描述对齐，并利用文本原型进行分类。在视觉、运动和语音解码任务上评估，语音解码准确率最高提升17.15个百分点。该表示支持候选集复用和基于标签的受试者与会话自适应，为跨会话脑机接口解码提供了新途径。",
-      "llm_tags": [
-        "query:bci-da"
-      ],
-      "matched_query_tag": "query:bci-da",
-      "matched_query_text": "handling session-to-session variability in neural recordings",
-      "matched_requirement_id": "req-6",
-      "selection_source": "fresh_fetch",
-      "quick_tier": "7"
-    },
+  "deep_dive": [
     {
       "id": "2610.13763v1",
       "source": "arxiv",
@@ -77,23 +36,63 @@
         "keyword:BCI-DA",
         "query:BCI-DA"
       ],
-      "llm_score": 6.0,
-      "llm_evidence_en": "fMRI visual decoding for brain-computer interfaces",
-      "llm_evidence_cn": "用于脑机接口的fMRI视觉解码",
-      "llm_evidence": "用于脑机接口的fMRI视觉解码",
-      "canonical_evidence": "用于脑机接口的fMRI视觉解码",
-      "llm_tldr_en": "Neurons++ reconstructs images/videos from fMRI with interpretability, contributing to BCI decoding models.",
-      "llm_tldr_cn": "针对fMRI视觉解码只能生成视觉逼真但未必忠实于脑活动的问题，本文提出Neurons++统一视觉流框架，支持静态图像和动态视频重建，并采用串行皮层启发的解码。该模型提高了重建的神经忠实度，为脑机接口视觉解码提供了可解释的解决方案。",
-      "llm_tldr": "针对fMRI视觉解码只能生成视觉逼真但未必忠实于脑活动的问题，本文提出Neurons++统一视觉流框架，支持静态图像和动态视频重建，并采用串行皮层启发的解码。该模型提高了重建的神经忠实度，为脑机接口视觉解码提供了可解释的解决方案。",
+      "llm_score": 9.0,
+      "llm_evidence_en": "Decoding visual experience from fMRI for brain-computer interfaces",
+      "llm_evidence_cn": "从fMRI解码视觉体验用于脑机接口",
+      "llm_evidence": "从fMRI解码视觉体验用于脑机接口",
+      "canonical_evidence": "从fMRI解码视觉体验用于脑机接口",
+      "llm_tldr_en": "Proposes Neurons++, a visual-stream fMRI reconstruction framework for images and videos, using serial cortex-inspired decoding for interpretability.",
+      "llm_tldr_cn": "该论文针对fMRI视觉解码中仅视觉合理性不足以确保输出忠实于大脑活动的问题，提出Neurons++框架，将视频重建扩展到图像和视频的统一视觉流重建，并采用串行皮层启发式解码提升可解释性。实验表明该方法能生成更符合神经活动的图像和视频，为脑机接口中的视觉解码提供了新思路。",
+      "llm_tldr": "该论文针对fMRI视觉解码中仅视觉合理性不足以确保输出忠实于大脑活动的问题，提出Neurons++框架，将视频重建扩展到图像和视频的统一视觉流重建，并采用串行皮层启发式解码提升可解释性。实验表明该方法能生成更符合神经活动的图像和视频，为脑机接口中的视觉解码提供了新思路。",
       "llm_tags": [
         "query:bci-da"
       ],
       "matched_query_tag": "query:bci-da",
       "matched_query_text": "neural decoding models for brain-computer interfaces",
       "matched_requirement_id": "req-4",
-      "selection_source": "fresh_fetch",
-      "quick_tier": "6"
+      "selection_source": "fresh_fetch"
     },
+    {
+      "id": "2610.12921v1",
+      "source": "arxiv",
+      "title": "Teaching neural decoders with language",
+      "abstract": "Brain-computer interfaces decode neural activity, yet class-label supervision (CLS) leaves relationships among classes implicit. We propose Language as Supervision (LaS), which aligns neural features with natural-language class descriptions through learned projections and predicts classes using candidate text prototypes. We evaluate seven encoder architectures with independently trained models for visual, motor, and speech decoding from scalp and intracranial recordings. LaS improves speech-decoding accuracy by up to 17.15~pp over matched CLS baselines. Its representations support candidate-set reuse and label-supervised subject and session adaptation, while LaS enables conditional unseen-frequency decoding in steady-state visual evoked potential (SSVEP) responses. Correct class-description correspondence supports this generalization, and dual-sided attribution visualization shows neural and textual contributions to the same class-matching score. These findings suggest that text descriptions can serve as general-purpose references for learning and interpretation in neural decoding.",
+      "authors": [
+        "Xuan Wen",
+        "Yonghao Song",
+        "Yuhong Zhang",
+        "Guoliang Li",
+        "Tzyy-Ping Jung",
+        "Xiaorong Gao"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-10-09T03:12:42+00:00",
+      "link": "https://arxiv.org/pdf/2610.12921v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Language-supervised neural decoding improves BCI accuracy and supports subject/session adaptation",
+      "llm_evidence_cn": "语言监督的神经解码提升BCI精度并支持被试/会话适应",
+      "llm_evidence": "语言监督的神经解码提升BCI精度并支持被试/会话适应",
+      "canonical_evidence": "语言监督的神经解码提升BCI精度并支持被试/会话适应",
+      "llm_tldr_en": "Proposes Language as Supervision (LaS) for BCI decoding, aligning neural features with language descriptions to improve accuracy and enable session adaptation.",
+      "llm_tldr_cn": "针对传统类别标签监督使类别间关系隐式、限制BCI解码性能与适应性的问题，本文提出语言作为监督(LaS)方法，通过学习投影将神经特征与自然语言类别描述对齐，并用候选文本原型进行预测。在视觉、运动和语音解码中，LaS将语音解码精度最高提升17.15个百分点，并支持候选集重用和标签监督的被试及会话适应。该工作为BCI神经解码提供更强语义监督，增强了跨会话适应性和可复用性。",
+      "llm_tldr": "针对传统类别标签监督使类别间关系隐式、限制BCI解码性能与适应性的问题，本文提出语言作为监督(LaS)方法，通过学习投影将神经特征与自然语言类别描述对齐，并用候选文本原型进行预测。在视觉、运动和语音解码中，LaS将语音解码精度最高提升17.15个百分点，并支持候选集重用和标签监督的被试及会话适应。该工作为BCI神经解码提供更强语义监督，增强了跨会话适应性和可复用性。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "neural decoding models for brain-computer interfaces",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
     {
       "id": "2610.13894v1",
       "source": "arxiv",
@@ -112,14 +111,133 @@
         "keyword:BCI-DA",
         "query:BCI-DA"
       ],
-      "llm_score": 6.0,
+      "llm_score": 7.0,
       "llm_evidence_en": "Validation study of standard BCI decoding pipelines on public benchmarks",
-      "llm_evidence_cn": "在公开基准上验证标准脑机接口解码流水线的研究",
-      "llm_evidence": "在公开基准上验证标准脑机接口解码流水线的研究",
-      "canonical_evidence": "在公开基准上验证标准脑机接口解码流水线的研究",
-      "llm_tldr_en": "Validates six standard BCI decoding pipelines (CSP+LDA, Riemannian MDM, EEGNet, etc.) on three public datasets using Nimbus Studio, confirming reproducibility.",
-      "llm_tldr_cn": "该论文针对可视化流水线平台Nimbus Studio是否可信的问题，进行了对照验证研究。在三个公开数据集上，评估了六种标准脑机接口解码流水线，包括CSP+LDA、黎曼MDM、切空间逻辑回归、P300 xDAWN+LDA以及深度ShallowConvNet和EEGNet，并采用交叉验证协议（含留一被试）。结果显示Nimbus Studio能复现参考结果，证明了该平台的可靠性。该工作为脑机接口研究者提供了一个经过验证的可视化工具，有助于标准化解码流程和跨研究比较，对跨天解码等高级研究具有支撑作用。",
-      "llm_tldr": "该论文针对可视化流水线平台Nimbus Studio是否可信的问题，进行了对照验证研究。在三个公开数据集上，评估了六种标准脑机接口解码流水线，包括CSP+LDA、黎曼MDM、切空间逻辑回归、P300 xDAWN+LDA以及深度ShallowConvNet和EEGNet，并采用交叉验证协议（含留一被试）。结果显示Nimbus Studio能复现参考结果，证明了该平台的可靠性。该工作为脑机接口研究者提供了一个经过验证的可视化工具，有助于标准化解码流程和跨研究比较，对跨天解码等高级研究具有支撑作用。",
+      "llm_evidence_cn": "在公开基准上验证标准BCI解码流程",
+      "llm_evidence": "在公开基准上验证标准BCI解码流程",
+      "canonical_evidence": "在公开基准上验证标准BCI解码流程",
+      "llm_tldr_en": "Nimbus Studio is a visual BCI experiment platform; this paper validates it by reproducing six standard BCI decoding pipelines on public datasets, demonstrating parity with reference implementations.",
+      "llm_tldr_cn": "Nimbus Studio是一个可视化BCI实验平台，可组装预处理、特征提取、解码与评估流程。该论文通过在三个公开基准上复现六种标准BCI解码流程（CSP+LDA、Riemannian MDM、EEGNet等），验证平台输出与参考实现一致。这为BCI研究者提供了可信赖的管道化工具，有助于解码模型的开发与比较。",
+      "llm_tldr": "Nimbus Studio是一个可视化BCI实验平台，可组装预处理、特征提取、解码与评估流程。该论文通过在三个公开基准上复现六种标准BCI解码流程（CSP+LDA、Riemannian MDM、EEGNet等），验证平台输出与参考实现一致。这为BCI研究者提供了可信赖的管道化工具，有助于解码模型的开发与比较。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "neural decoding models for brain-computer interfaces",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2610.07484v1",
+      "source": "arxiv",
+      "title": "SpecBraM: What Should an EEG Foundation Model Predict? Masked Band-Power Prediction versus Waveform Reconstruction",
+      "abstract": "Self-supervised EEG models often reconstruct masked waveforms or predict discrete codes. We study a task-aligned alternative: masked band-power prediction (MBP), which predicts fixed narrow-band log spectral energy for masked channel-time patches. This target retains rhythm power relevant to sleep staging while avoiding phase-sensitive waveform reconstruction and a learned codebook. Across three pretraining seeds, we compare band-power and waveform targets with matched backbones, pretraining data (2,388 hours), and training steps, including a 2x2 tokenizer-by-target design. On ISRUC and HMC sleep staging, MBP exceeds raw- and band-waveform reconstruction by 1.6-2.8 balanced-accuracy points with all labels and 4.7-7.3 points with 1% of labels under a strict linear probe; the target effect exceeds the tokenizer effect. Its frozen features reach 0.7916/0.7425 balanced accuracy, versus 0.7636/0.7227 for a matched rich handcrafted spectral baseline, although the gap is about one point with 1% of labels. Full fine-tuning reaches 0.8107/0.7669. The gains do not extend to every task with spectral cues, including motor imagery, depression screening, and vigilance regression. These results support choosing pretraining targets to match the physical quantities and spatial and temporal scales relevant to downstream labels.",
+      "authors": [
+        "Peng Xie",
+        "Yequan Bie",
+        "Jianda Mao",
+        "Kani Chen"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-10-05T22:49:16+00:00",
+      "link": "https://arxiv.org/pdf/2610.07484v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "self-supervised EEG foundation model for decoding",
+      "llm_evidence_cn": "自监督EEG基础模型用于解码",
+      "llm_evidence": "自监督EEG基础模型用于解码",
+      "canonical_evidence": "自监督EEG基础模型用于解码",
+      "llm_tldr_en": "This paper investigates a masked band-power prediction target for self-supervised EEG pretraining, showing that it outperforms waveform reconstruction on sleep staging tasks, providing a task-aligned alternative for EEG foundation models.",
+      "llm_tldr_cn": "针对自监督EEG模型中波形重建目标保留相位信息但可能无关任务的问题，本文提出掩蔽频带功率预测（MBP）方法，预测掩蔽片段的窄带对数谱能量。在睡眠分期数据集上的实验表明，MBP相比波形重建提高了1.6-2.8个平衡准确率点，为EEG基础模型预训练提供了更符合任务的目标。",
+      "llm_tldr": "针对自监督EEG模型中波形重建目标保留相位信息但可能无关任务的问题，本文提出掩蔽频带功率预测（MBP）方法，预测掩蔽片段的窄带对数谱能量。在睡眠分期数据集上的实验表明，MBP相比波形重建提高了1.6-2.8个平衡准确率点，为EEG基础模型预训练提供了更符合任务的目标。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "neural decoding models for brain-computer interfaces",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2610.07824v1",
+      "source": "arxiv",
+      "title": "CANDLE: Cortical Null-Space Decomposition for Noninvasive Brain Source Imaging",
+      "abstract": "Electrophysiological source imaging (ESI) aims to estimate cortical source activity from noninvasive electrophysiological measurements such as electroencephalogram (EEG). However, ESI is fundamentally ill-posed because source activity is substantially higher-dimensional than sensor observations, resulting in non-unique solutions. Recent learning-based approaches address this ambiguity by learning data-driven source priors, yet they often struggle to generalize across subject-specific cortical geometries. To address this, we propose CANDLE, a learning-based ESI model that estimates source activity on subject-specific cortical geometries. CANDLE learns a prior over the null space induced by the source-to-sensor mapping derived from T1-weighted MRI, restricting learning to unobservable source components while preserving geometric constraints. To train CANDLE, we develop a whole-brain simulator spanning over 1,100 subject-specific cortical geometries with source configurations derived from over 26,000 statistical brain maps. Trained exclusively on simulated data, CANDLE outperformed prior ESI methods on simulated source activity estimation and generalized to two empirical tasks: (i) intracranial stimulation localization from simultaneously recorded scalp EEG and (ii) epileptogenic zone estimation from presurgical interictal EEG. Our project page is available at https://candle-esi.pages.dev}{https://candle-esi.pages.dev.",
+      "authors": [
+        "Shuntaro Suzuki",
+        "Yuiga Wada",
+        "Komei Sugiura"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "eess.SP",
+        "q-bio.NC"
+      ],
+      "published": "2026-10-06T06:19:18+00:00",
+      "link": "https://arxiv.org/pdf/2610.07824v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Learning-based EEG source imaging with subject-specific generalization",
+      "llm_evidence_cn": "基于学习的EEG源成像，具有被试特定泛化能力",
+      "llm_evidence": "基于学习的EEG源成像，具有被试特定泛化能力",
+      "canonical_evidence": "基于学习的EEG源成像，具有被试特定泛化能力",
+      "llm_tldr_en": "Proposes CANDLE, a learning-based ESI model that estimates source activity on subject-specific cortical geometries by learning a prior over the null space induced by the source-to-sensor mapping.",
+      "llm_tldr_cn": "该论文针对脑电源成像中学习模型难以泛化到不同被试特定皮层几何的问题，提出CANDLE模型，通过从T1加权MRI导出的源到传感器映射所诱导的零空间学习先验，从而估计被试特定皮层几何上的源活动。实验表明该方法能提高跨被试泛化性能，为EEG源成像中的个体差异适应提供了有效方案。",
+      "llm_tldr": "该论文针对脑电源成像中学习模型难以泛化到不同被试特定皮层几何的问题，提出CANDLE模型，通过从T1加权MRI导出的源到传感器映射所诱导的零空间学习先验，从而估计被试特定皮层几何上的源活动。实验表明该方法能提高跨被试泛化性能，为EEG源成像中的个体差异适应提供了有效方案。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "Identify domain adaptation algorithms for EEG based brain computer interfaces across sessions",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2610.13120v1",
+      "source": "arxiv",
+      "title": "Replaying the Movie in Your Mind Decoding Dynamic Visual Perception and Recall from EEG",
+      "abstract": "Decoding dynamic visual content from EEG has advanced rapidly for visual perception, yet it remains unclear which aspects of neural representations are preserved when people internally replay dynamic scenes. We introduce PAIR, an EEG benchmark collected from 20 participants using an interleaved, clip-wise paradigm that pairs naturalistic video viewing with immediate visual recall. This design enables a comparison between externally driven perception and internally generated recall for the same stimulus content within a fixed trial sequence. We benchmark multiple decoding models on hierarchical semantic classification at both fine-grained and coarse-grained levels, meta-feature decoding tasks covering motion, color, object number, face, and human presence, and a state-decoding task that discriminates perception from recall. Within-subject validation results show numerically similar performance for several model--task combinations, alongside higher perception accuracy in two coarse-grained comparisons after multiple-comparison correction. In contrast, perception and recall are highly separable at the state level under the present validation protocol. State accuracy remains high after alpha-band ablation, although this does not exclude ocular or other task-related contributions.",
+      "authors": [
+        "Zikai Fang",
+        "Tian-Yi Zhou",
+        "Xuan-Hao Liu",
+        "Yixi Li",
+        "Xiaoyu Xing",
+        "Yutong Pei",
+        "Bao-Liang Lu",
+        "Wei-Long Zheng"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-10-09T07:15:07+00:00",
+      "link": "https://arxiv.org/pdf/2610.13120v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "EEG decoding of dynamic visual perception and recall, a neural decoding model for BCI",
+      "llm_evidence_cn": "从EEG解码动态视觉感知与回忆，属于BCI神经解码模型",
+      "llm_evidence": "从EEG解码动态视觉感知与回忆，属于BCI神经解码模型",
+      "canonical_evidence": "从EEG解码动态视觉感知与回忆，属于BCI神经解码模型",
+      "llm_tldr_en": "Introduces PAIR benchmark for decoding dynamic visual content from EEG, comparing perception and recall.",
+      "llm_tldr_cn": "现有EEG动态视觉解码主要关注外部感知，对内部回忆表征的保留情况了解有限。本文提出PAIR基准，采集20名参与者在交错的视频观看与即时回忆范式下的脑电数据。通过多模型在分层语义分类和元特征解码任务上的比较，揭示感知与回忆神经表征的异同。该工作为视觉BCI解码及神经认知机制研究提供了数据和基准。",
+      "llm_tldr": "现有EEG动态视觉解码主要关注外部感知，对内部回忆表征的保留情况了解有限。本文提出PAIR基准，采集20名参与者在交错的视频观看与即时回忆范式下的脑电数据。通过多模型在分层语义分类和元特征解码任务上的比较，揭示感知与回忆神经表征的异同。该工作为视觉BCI解码及神经认知机制研究提供了数据和基准。",
       "llm_tags": [
         "query:bci-da"
       ],
