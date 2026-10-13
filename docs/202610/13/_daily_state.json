@@ -1,0 +1,57 @@
+{
+  "date": "20261013",
+  "date_label": "",
+  "generated_at": "2026-10-13 01:28:36 UTC",
+  "recommend_exists": true,
+  "run_count": 1,
+  "papers": [
+    {
+      "paper_id": "2610.12921v1",
+      "route": "202610/13/2610.12921v1-teaching-neural-decoders-with-language",
+      "title": "Teaching neural decoders with language",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "语言监督支持脑信号解码的会话自适应",
+      "first_seen_at": "2026-10-13 01:28:36 UTC",
+      "updated_at": "2026-10-13 01:28:36 UTC"
+    },
+    {
+      "paper_id": "2610.13763v1",
+      "route": "202610/13/2610.13763v1-neurons-a-unified-visual-stream-framework-for-image-and-video-reconstruction-from-fmri-with-neural-to-visual-interpretability",
+      "title": "Neurons++: A Unified Visual-Stream Framework for Image and Video Reconstruction from fMRI with Neural-to-Visual Interpretability",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "用于脑机接口的fMRI视觉解码",
+      "first_seen_at": "2026-10-13 01:28:36 UTC",
+      "updated_at": "2026-10-13 01:28:36 UTC"
+    },
+    {
+      "paper_id": "2610.13894v1",
+      "route": "202610/13/2610.13894v1-nimbus-studio-reproduces-reference-bci-decoding-pipelines-a-validation-study-on-public-benchmarks-across-protocols-and-paradigms",
+      "title": "Nimbus Studio reproduces reference BCI decoding pipelines: a validation study on public benchmarks across protocols and paradigms",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "在公开基准上验证标准脑机接口解码流水线的研究",
+      "first_seen_at": "2026-10-13 01:28:36 UTC",
+      "updated_at": "2026-10-13 01:28:36 UTC"
+    }
+  ]
+}
