@@ -1,0 +1,89 @@
+{
+  "date": "20261014",
+  "date_label": "",
+  "generated_at": "2026-10-14 22:24:17 UTC",
+  "recommend_exists": true,
+  "run_count": 1,
+  "papers": [
+    {
+      "paper_id": "2610.14497v1",
+      "route": "202610/14/2610.14497v1-deft-disentanglement-enhanced-fine-tuning-for-eeg-foundation-models",
+      "title": "DEFT: Disentanglement-Enhanced Fine-Tuning for EEG Foundation Models",
+      "section": "deep",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 9.0,
+      "evidence": "针对脑电基础模型的解纠缠增强微调以处理被试相关变异",
+      "first_seen_at": "2026-10-14 22:24:17 UTC",
+      "updated_at": "2026-10-14 22:24:17 UTC"
+    },
+    {
+      "paper_id": "2610.15626v1",
+      "route": "202610/14/2610.15626v1-riemannian-suppression-of-cross-session-identity-leakage-in-motor-imagery-eeg",
+      "title": "Riemannian Suppression of Cross-Session Identity Leakage in Motor-Imagery EEG",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 7.0,
+      "evidence": "用于跨会话运动想象脑电的黎曼变换",
+      "first_seen_at": "2026-10-14 22:24:17 UTC",
+      "updated_at": "2026-10-14 22:24:17 UTC"
+    },
+    {
+      "paper_id": "2610.15104v1",
+      "route": "202610/14/2610.15104v1-predicting-cognitive-tasks-from-single-channel-eeg-through-task-semantic-alignment",
+      "title": "Predicting Cognitive Tasks from Single-Channel EEG through Task-Semantic Alignment",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "通过语义空间对齐跨任务脑电",
+      "first_seen_at": "2026-10-14 22:24:17 UTC",
+      "updated_at": "2026-10-14 22:24:17 UTC"
+    },
+    {
+      "paper_id": "2610.16589v1",
+      "route": "202610/14/2610.16589v1-hybra-eeg-hyperbolic-global-local-brain-region-aggregation-for-self-supervised-eeg-representation-learning",
+      "title": "HyBRA-EEG: Hyperbolic Global-Local Brain-Region Aggregation for Self-Supervised EEG Representation Learning",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "自监督EEG表征学习缓解被试间和导联差异，与脑信号解码的领域自适应相关。",
+      "first_seen_at": "2026-10-14 22:24:17 UTC",
+      "updated_at": "2026-10-14 22:24:17 UTC"
+    },
+    {
+      "paper_id": "2610.16921v1",
+      "route": "202610/14/2610.16921v1-time-window-optimization-for-motor-imagery-classification-via-temporal-structure-embedded-reinforcement-learning",
+      "title": "Time Window Optimization for Motor Imagery Classification via Temporal Structure Embedded Reinforcement Learning",
+      "section": "quick",
+      "tags": [
+        {
+          "kind": "query",
+          "label": "bci-da"
+        }
+      ],
+      "score": 6.0,
+      "evidence": "在线MI-BCI脑电解码的自适应时间窗口优化",
+      "first_seen_at": "2026-10-14 22:24:17 UTC",
+      "updated_at": "2026-10-14 22:24:17 UTC"
+    }
+  ]
+}

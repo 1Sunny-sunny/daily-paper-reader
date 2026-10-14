@@ -1,0 +1,209 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-10-14T22:22:06.154666+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 1,
+    "deep_cap": 6,
+    "deep_selected": 1,
+    "quick_candidates": 4,
+    "quick_skim_target": 11,
+    "quick_selected": 4
+  },
+  "deep_dive": [
+    {
+      "id": "2610.14497v1",
+      "source": "arxiv",
+      "title": "DEFT: Disentanglement-Enhanced Fine-Tuning for EEG Foundation Models",
+      "abstract": "EEG foundation models (EFMs) have improved EEG representation learning by transferring knowledge from large-scale multi-subject pretraining to downstream tasks. However, their pretrained embeddings often retain substantial subject-related variation, placing an additional burden on the downstream classifier, especially in cross-subject settings. To address this issue, we propose Disentangled EFM Fine-Tuning (DEFT), a plug-and-play adapter for EFM fine-tuning. DEFT encourages branch disentanglement of pretrained tokens into task-oriented content and subject-consistent style, then performs downstream prediction from the content branch. It instantiates this factorize-before-classify design with recursive Gaussian refinement, temporal-variance regularization, subject-aware contrastive learning, and reconstruction. Experiments across multiple EEG datasets and four EFM backbones show that DEFT improves matched fine-tuning baselines. Further ablations and analyses support the intended content/style branch organization.",
+      "authors": [
+        "Yuqiu Deng",
+        "Muyun Jiang",
+        "Zongpeng Zhang",
+        "Mingqing Xiao",
+        "Yansen Wang",
+        "Peiliang Gong",
+        "Xinliang Zhou",
+        "Yi Ding",
+        "Ziyu Jia",
+        "Cuntai Guan",
+        "Chenyu Liu"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-10-10T02:54:09+00:00",
+      "link": "https://arxiv.org/pdf/2610.14497v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Disentanglement-Enhanced Fine-Tuning for EEG foundation models to handle subject-related variation",
+      "llm_evidence_cn": "针对脑电基础模型的解纠缠增强微调以处理被试相关变异",
+      "llm_evidence": "针对脑电基础模型的解纠缠增强微调以处理被试相关变异",
+      "canonical_evidence": "针对脑电基础模型的解纠缠增强微调以处理被试相关变异",
+      "llm_tldr_en": "This paper introduces DEFT, a plug-and-play adapter for EEG foundation models that disentangles pretrained tokens into task content and subject style, improving cross-subject decoding and reducing domain shift.",
+      "llm_tldr_cn": "该论文针对脑电基础模型预训练嵌入中残留的被试相关变异问题，提出解纠缠增强微调方法DEFT。DEFT作为即插即用适配器，通过分支解纠缠将预训练令牌分解为任务导向的内容和被试一致的风格，仅从内容分支进行预测。实验表明DEFT在多个跨被试脑电解码任务上优于传统微调方法，有效减轻了被试间差异对分类器的影响，为脑机接口的跨域适应提供了新方案。",
+      "llm_tldr": "该论文针对脑电基础模型预训练嵌入中残留的被试相关变异问题，提出解纠缠增强微调方法DEFT。DEFT作为即插即用适配器，通过分支解纠缠将预训练令牌分解为任务导向的内容和被试一致的风格，仅从内容分支进行预测。实验表明DEFT在多个跨被试脑电解码任务上优于传统微调方法，有效减轻了被试间差异对分类器的影响，为脑机接口的跨域适应提供了新方案。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "domain adaptation techniques for brain signal decoding",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2610.15626v1",
+      "source": "arxiv",
+      "title": "Riemannian Suppression of Cross-Session Identity Leakage in Motor-Imagery EEG",
+      "abstract": "Electroencephalography (EEG) recorded for motor-imagery (MI) brain-computer interfaces (BCIs) carries subject-identifying structure that persists across sessions, allowing separately released sessions from the same person to be linked. Existing EEG identity protections use learned or additive perturbations and operate on representations other than the covariance geometry underlying MI pipelines. We ask whether cross-session identity leakage can be suppressed directly in this covariance representation without learning a privacy model. We introduce a Riemannian transform that equalizes two subject-conditioned geometric statistics: the Riemannian mean covariance and the tangent-space scatter around it, with two optional band-specific refinements. Ablations show that mean alignment and scatter whitening carry nearly all of the suppression, while the optional stages contribute small, dataset-dependent refinements. Across two public datasets and five attackers spanning four covariance-space representations, the worst attacker falls from 90.8% to 15.6% on BCI Competition IV-2a and from 90.8% to 9.9% on OpenBMI, at a cost of 7.0 and 2.1 points of MI decoding accuracy relative to the 8-30 Hz input, and no aggregation rule exceeds chance by more than two points at any batch size. The transform requires no learned privacy model, surrogate network, or gradient-based training, and is fitted on one session and applied unchanged to a held-out later session.",
+      "authors": [
+        "Sheikh Samit Muhaimin",
+        "Aarthy Nagarajan"
+      ],
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR"
+      ],
+      "published": "2026-10-11T13:50:47+00:00",
+      "link": "https://arxiv.org/pdf/2610.15626v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Riemannian transform for cross-session MI-EEG",
+      "llm_evidence_cn": "用于跨会话运动想象脑电的黎曼变换",
+      "llm_evidence": "用于跨会话运动想象脑电的黎曼变换",
+      "canonical_evidence": "用于跨会话运动想象脑电的黎曼变换",
+      "llm_tldr_en": "This paper addresses cross-session identity leakage in motor-imagery EEG by introducing a Riemannian transform that equalizes subject-conditioned covariance statistics, enabling privacy preservation without learning a model, and could serve as a domain adaptation tool for cross-session variability.",
+      "llm_tldr_cn": "本文针对运动想象脑电数据中跨会话身份信息泄露问题，提出一种黎曼变换，通过均衡受试者条件下的黎曼均值和切空间散布来抑制身份特征，无需学习隐私模型。该方法直接在协方差几何上进行操作，可视为一种跨会话对齐技术，能保持分类性能的同时降低身份关联，为脑电数据的隐私保护和跨会话域适应提供了新思路。",
+      "llm_tldr": "本文针对运动想象脑电数据中跨会话身份信息泄露问题，提出一种黎曼变换，通过均衡受试者条件下的黎曼均值和切空间散布来抑制身份特征，无需学习隐私模型。该方法直接在协方差几何上进行操作，可视为一种跨会话对齐技术，能保持分类性能的同时降低身份关联，为脑电数据的隐私保护和跨会话域适应提供了新思路。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "Identify domain adaptation algorithms for EEG based brain computer interfaces across sessions",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2610.15104v1",
+      "source": "arxiv",
+      "title": "Predicting Cognitive Tasks from Single-Channel EEG through Task-Semantic Alignment",
+      "abstract": "Studies of data scaling in electroencephalography (EEG) and related noninvasive recordings suggest that simple wearable devices could eventually reveal more about cognitive states. However, publicly available EEG data are difficult to combine. Different laboratories record different tasks, participants, and devices. Task-agnostic self-supervised learning can exploit such data, but representations learned only with EEG signals have not consistently produced feature representations that are directly effective for decoding the cognitive state. We therefore aimed to incorporate task information by embedding experimental instructions, stimuli and response demands in a common semantic space, and trained an EEG encoder to align signals from a single anterior--posterior differential channel with those task vectors. This framework supports zero-shot prediction without target-condition calibration and few-shot prediction using labeled samples. On a reserved ten-class evaluation, the highest observed zero-shot balanced accuracy was 30.13% (chance 10%). In a separate developmental few-shot experiment, balanced accuracy reached 34.47% using 16 labeled EEG examples per class from another participant, and 74.99% using examples from the test participant's own task recording. Our experiments suggest that training models on datasets with multiple tasks per participant appeared useful, whereas adding datasets containing only one or a few tasks sometimes reduced established performance despite broader task coverage. These exploratory results suggest that EEG datasets that repeat varied cognitive tasks and everyday activities within the same individuals across days, devices and independent studies would be particularly useful for training an EEG foundation model for predicting cognitive states.",
+      "authors": [
+        "Ryota Kanai"
+      ],
+      "primary_category": "q-bio.NC",
+      "categories": [
+        "q-bio.NC"
+      ],
+      "published": "2026-10-10T18:28:09+00:00",
+      "link": "https://arxiv.org/pdf/2610.15104v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "aligns EEG across tasks via semantic space",
+      "llm_evidence_cn": "通过语义空间对齐跨任务脑电",
+      "llm_evidence": "通过语义空间对齐跨任务脑电",
+      "canonical_evidence": "通过语义空间对齐跨任务脑电",
+      "llm_tldr_en": "The paper addresses cross-dataset EEG variability by aligning single-channel EEG with task semantic embeddings, enabling more effective cognitive task decoding across different labs and tasks, which contributes to domain adaptation for brain signal decoding.",
+      "llm_tldr_cn": "本文解决不同实验室脑电数据难以合并、自监督表示无法直接解码认知状态的问题。提出将实验指令、刺激和反应要求嵌入语义空间，训练脑电编码器对齐单通道信号。实验表明该方法能有效预测认知任务，提升跨数据集解码性能。该工作展示了任务语义对齐作为脑信号域适应的有效策略。",
+      "llm_tldr": "本文解决不同实验室脑电数据难以合并、自监督表示无法直接解码认知状态的问题。提出将实验指令、刺激和反应要求嵌入语义空间，训练脑电编码器对齐单通道信号。实验表明该方法能有效预测认知任务，提升跨数据集解码性能。该工作展示了任务语义对齐作为脑信号域适应的有效策略。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "domain adaptation techniques for brain signal decoding",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2610.16589v1",
+      "source": "arxiv",
+      "title": "HyBRA-EEG: Hyperbolic Global-Local Brain-Region Aggregation for Self-Supervised EEG Representation Learning",
+      "abstract": "Electroencephalography (EEG) representation learning is challenged by noisy signals, inter-subject variability, and heterogeneous electrode montages in different datasets and recording settings. Recent self-supervised EEG pretraining methods improve transferability by converting heterogeneous recordings into unified token or sequence representations, but channel-aware designs may still encode montage- or dataset-specific regularities. We propose HyBRA, a self-supervised framework based on hyperbolic global-local brain-region aggregation. HyBRA maps heterogeneous channel observations into a fixed regional token space by combining electrode coordinates, region priors, and feature-dependent hyperbolic distances. A channel-evidence injection branch preserves fine-grained discriminative cues during aggregation. The resulting tokens are processed by a Region-Time Transformer and pretrained with masked reconstruction of latent features and region-level signals. HyBRA outperforms the compared methods in average balanced accuracy on six benchmark datasets. Under a controlled six-fold evaluation on OpenBMI-MI, HyBRA matches CSBrain in balanced accuracy, improves AUROC by 1.84 percentage points and AUPRC by 5.23 percentage points, and uses 96.8\\% fewer parameters. Matched comparisons on TUAB and TUEV show higher balanced accuracy for hyperbolic matching than for Euclidean distance or cosine similarity.",
+      "authors": [
+        "Xin Liu",
+        "Feng Lu",
+        "Wei Li"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-10-12T11:10:32+00:00",
+      "link": "https://arxiv.org/pdf/2610.16589v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Self-supervised EEG representation learning mitigates inter-subject and montage variability, relevant to domain adaptation for brain signal decoding.",
+      "llm_evidence_cn": "自监督EEG表征学习缓解被试间和导联差异，与脑信号解码的领域自适应相关。",
+      "llm_evidence": "自监督EEG表征学习缓解被试间和导联差异，与脑信号解码的领域自适应相关。",
+      "canonical_evidence": "自监督EEG表征学习缓解被试间和导联差异，与脑信号解码的领域自适应相关。",
+      "llm_tldr_en": "HyBRA-EEG proposes hyperbolic brain-region aggregation for self-supervised EEG representation learning to handle heterogeneous recordings across subjects and montages, improving transferability for downstream decoding tasks.",
+      "llm_tldr_cn": "针对EEG信号中的噪声、个体差异和不同数据集电极配置不一致的问题，HyBRA-EEG提出基于双曲空间全局-局部脑区聚合的自监督框架。该方法将异构通道映射到固定区域令牌空间，结合电极坐标、区域先验和特征依赖的双曲距离。实验表明该方法能学习更可迁移的EEG表示，为跨被试和跨记录条件的脑信号解码提供基础。",
+      "llm_tldr": "针对EEG信号中的噪声、个体差异和不同数据集电极配置不一致的问题，HyBRA-EEG提出基于双曲空间全局-局部脑区聚合的自监督框架。该方法将异构通道映射到固定区域令牌空间，结合电极坐标、区域先验和特征依赖的双曲距离。实验表明该方法能学习更可迁移的EEG表示，为跨被试和跨记录条件的脑信号解码提供基础。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "domain adaptation techniques for brain signal decoding",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2610.16921v1",
+      "source": "arxiv",
+      "title": "Time Window Optimization for Motor Imagery Classification via Temporal Structure Embedded Reinforcement Learning",
+      "abstract": "Online motor imagery-based brain-computer interfaces (MI-BCIs) typically decode continuous EEG using fixed-length sliding windows that may be misaligned with neural events. Existing window optimization methods often evaluate windows independently, overlooking temporal dependencies and potentially producing fragmented or physiologically implausible selections. We propose Temporal Structure Embedded Reinforcement Learning (TSE-RL), a framework that incorporates prior knowledge of MI event structure into a constrained Markov decision process for adaptive window optimization. First, TSE-RL assigns each window an explicit semantic role through Discard, Onset, Sustain, or Offset actions, extending binary retain/discard decisions to event-level alignment. Second, a finite-state machine masks invalid actions to enforce the temporal order of MI phases and promote physiologically plausible window sequences. Third, a Transformer-based history encoder captures dependencies across windows, improving training stability and computational efficiency compared with recurrent architectures. TSE-RL is plug-and-play and can be integrated with diverse MI classifiers. Experiments on multiple benchmark datasets demonstrate consistent improvements in decoding performance in both cross-session and cross-subject settings. Visualization analyses further suggest that the learned window selection policy aligns with neurophysiological principles.",
+      "authors": [
+        "Huan Luo",
+        "Na Lu",
+        "Xiaopeng Wang",
+        "Ziyang Shang"
+      ],
+      "primary_category": "cs.NE",
+      "categories": [
+        "cs.NE",
+        "cs.LG"
+      ],
+      "published": "2026-10-12T15:06:03+00:00",
+      "link": "https://arxiv.org/pdf/2610.16921v1",
+      "tags": [
+        "keyword:BCI-DA",
+        "query:BCI-DA"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Online MI-BCI EEG decoding with adaptive time window optimization",
+      "llm_evidence_cn": "在线MI-BCI脑电解码的自适应时间窗口优化",
+      "llm_evidence": "在线MI-BCI脑电解码的自适应时间窗口优化",
+      "canonical_evidence": "在线MI-BCI脑电解码的自适应时间窗口优化",
+      "llm_tldr_en": "Proposes TSE-RL, a reinforcement learning framework for adaptive time window optimization in MI-BCI EEG decoding, achieving improved classification.",
+      "llm_tldr_cn": "针对在线运动想象脑机接口中固定滑动窗口可能与神经事件错位的问题，本文提出TSE-RL框架，将时间结构先验嵌入受限马尔可夫决策过程，为每个窗口分配语义角色并优化选择。实验表明该方法可提升MI-EEG解码性能。该工作为BCI解码中的时间窗口选择提供了新方法。",
+      "llm_tldr": "针对在线运动想象脑机接口中固定滑动窗口可能与神经事件错位的问题，本文提出TSE-RL框架，将时间结构先验嵌入受限马尔可夫决策过程，为每个窗口分配语义角色并优化选择。实验表明该方法可提升MI-EEG解码性能。该工作为BCI解码中的时间窗口选择提供了新方法。",
+      "llm_tags": [
+        "query:bci-da"
+      ],
+      "matched_query_tag": "query:bci-da",
+      "matched_query_text": "neural decoding models for brain-computer interfaces",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
